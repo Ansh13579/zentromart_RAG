@@ -1,0 +1,2432 @@
+[
+  {
+    "conversation_id": "PC002",
+    "scenario": "high_value_damage",
+    "turns": [
+      {
+        "conversation_id": "PC002",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Main ZentroMart ki AI support assistant hoon. Hello! Main aapki kaise madad kar sakta hoon? Please bataiye ki aapka order ka kaun sa sawaal hai — jaise order cancel karna, address change karna, return/ refund, ya payment ka issue? Main aapki behtar se help kar paunga.\n\nSources: FAQH-1, RVP-1, PAY-2, DEL-6, PAY-3",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC002",
+        "turn": 2,
+        "customer_message": "Order number hai 8978 2837.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC002",
+        "turn": 3,
+        "customer_message": "Last four digits 4533 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order 89782837 was delivered on 15 October 2026, total ₹53,127 (standard delivery, paid via UPI). It contains the Kestrel K7 Smartphone, Sootra Canvas Tote Bag, and Zentro Vista 43-inch 4K Smart TV. I also see a damage report on the TV (ELE-0021) submitted on 17 October 2026, currently marked as priority_resolution — no photos have been attached yet. What would you like help with regarding this order?\n\nSources: IDV-2, IDV-1, PAY-3, DEL-6, CAN-1",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC002",
+        "turn": 4,
+        "customer_message": "Maine Zentro Vista 43-inch 4K Smart TV damage report kiya tha. Abhi replacement approve kar do na?",
+        "expected_decision": "escalate",
+        "predicted_decision": "escalate",
+        "decision_correct": true,
+        "response": "I created ticket EVAL-PC002 and handed this over to our support team for review.",
+        "required_facts_found": [
+          "ticket / team / colleague / Priority"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "create_ticket"
+        ],
+        "actual_tool_calls": [
+          "create_ticket"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC003",
+    "scenario": "return_eligibility",
+    "turns": [
+      {
+        "conversation_id": "PC003",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "Main ZentroMart ki AI support assistant hoon. Namaste! मैं आपकी ऑर्डर संबंधित मदद करने के लिए तैयार हूँ। मैं आपको ऑर्डर कैंसिलेशन, डिलीवरी पता बदलने, रिटर्न/रिफंड, या पेमेंट से जुड़े मुद्दों में मदद कर सकता हूँ।\n\nकृपया बताएं कि आपको किस चीज़ में मदद चाहिए, और साथ ही अपना ऑर्डर ID शेयर करें ताकि मैं आपके ऑर्डर की सही जानकारी देख सकूँ।\n\nSources: FAQH-1, RVP-1, DEL-6, PAY-2, PAY-3",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": 2,
+        "customer_message": "Order number hai 1859 9253.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": 3,
+        "customer_message": "Last four digits 4265 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order 18599253 was placed on 2026-09-30 and delivered on 2026-10-12. It contains Kaafi Running Sneakers (White) and UrbanThread Slim Fit Jeans (Maroon), with a total of ₹4,558 after the FEST200 coupon discount of ₹200.\n\nSources: IDV-1, IDV-2",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": 4,
+        "customer_message": "Kya main Kaafi Running Sneakers return kar sakti hoon?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Yes, you can return the Kaafi Running Sneakers. They fall under the fashion/footwear category with a 15-day return window from the delivery date of 2026-10-12, so the last return date is 2026-10-27 — today (2026-10-20) is still within the window. (The 30-day window for fashion orders placed 01–15 October does not apply here, since this order was placed on 2026-09-30.)\n\nThe sneakers must be unused, with original tags, packaging and accessories. As this is a partial return of a multi-item order, your refund will be the price paid for the sneakers after deducting their share of the ₹200 FEST200 coupon discount. If you'd rather try a different size or colour, an exchange is also possible within the return window, subject to stock.\n\nSources: RET-2, RET-4, RET-9",
+        "required_facts_found": [
+          "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC003",
+        "turn": 5,
+        "customer_message": "Aur refund kitne din mein aayega?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Since your order was paid through the ZentroMart Wallet, the refund will be instant — it reaches your wallet within 2 hours of being initiated. This starts once your returned sneakers pass the quality check and the refund is processed; the amount goes back to the original payment method.\n\nSources: REF-2, KB-00.3",
+        "required_facts_found": [
+          "instant / 2 hours / turant / तुरंत / 2 ghante / दो घंटे"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": true,
+    "failure_reasons": []
+  },
+  {
+    "conversation_id": "PC004",
+    "scenario": "return_eligibility",
+    "turns": [
+      {
+        "conversation_id": "PC004",
+        "turn": 1,
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "मैं ZentroMart की AI सहायता सहायक हूँ। नमस्ते! मैं आपकी ऑर्डर से जुड़ी समस्या का समाधान करने में मदद करूँगा। कृपया बताएं कि आपको किस चीज़ में मदद चाहिए — ऑर्डर कैंसिल करना, पता बदलना, डिलीवरी में देरी, रिटर्न या कुछ और?\n\nयदि आप ऑर्डर आईडी साझा कर सकते हैं, तो मैं जल्दी से स्थिति देख सकता हूँ।",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": 2,
+        "customer_message": "ऑर्डर नंबर है 7936 3550।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": 3,
+        "customer_message": "आख़िरी चार अंक 2949 हैं।",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "आपका ऑर्डर 79363550 सफलतापूर्वक सत्यापित हो गया है। सारांश:\n\n- **स्थिति:** डिलीवर किया गया (14 अक्टूबर 2026)\n- **वस्तुएँ:** UrbanThread Slim Fit Jeans, Maroon (₹1,959) और Sootra Linen Shirt, Maroon (₹1,019)\n- **भुगतान:** UPI के माध्यम से ₹2,978 (कोई अतिरिक्त डिलीवरी शुल्क नहीं)\n- **शिपिंग:** 6 अक्टूबर को ऑर्डर किया गया, 7 अक्टूबर को शिप किया गया\n\nऑर्डर के बारे में और क्या जानना चाहते हैं — जैसे रिटर्न या रिफ़ंड?\n\nSources: IDV-1, IDV-2",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": 4,
+        "customer_message": "क्या मैं UrbanThread Slim Fit Jeans वापस कर सकती हूँ?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "हाँ, आप UrbanThread Slim Fit Jeans वापस कर सकती हैं।\n\nयह जीन्स फैशन श्रेणी की है और आपका ऑर्डर 06 अक्टूबर 2026 को रखा गया था, जो 01–15 अक्टूबर 2026 की विशेष अवधि में आता है, इसलिए इसे डिलीवरी (14 अक्टूबर 2026) की तारीख़ से **30 दिनों** के भीतर वापस किया जा सकता है। **लास्ट रिटर्न डेट: 13 नवंबर 2026**।\n\nवस्तु की शर्त: जीन्स **बिना इस्तेमाल की हुई**, ओरिजिनल टैग्स, पैकेजिंग, एक्सेसरीज़ और फ्री गिफ़्ट्स के साथ होनी चाहिए।\n\nSources: RET-2, RET-4, RET-8",
+        "required_facts_found": [
+          "2026-11-13 / 13 November 2026 / 13 नवंबर 2026"
+        ],
+        "required_facts_missing": [
+          "49"
+        ],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC004",
+        "turn": 5,
+        "customer_message": "और रिफ़ंड कितने दिन में आएगा?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "रिफ़ंड इस तरह से आएगा:\n\n- **रिफ़ंड शुरू होना:** पिकअप के बाद क्वालिटी चेक (QC) पास होते ही **2 कामकाजी दिनों** के भीतर (आप ZentroMart Plus मेंबर नहीं हैं, इसलिए यह लागू होता है)।\n- **बैंक में पहुँचना:** आपने UPI से भुगतान किया था, इसलिए रिफ़ंड शुरू होने के बाद **1 से 3 कामकाजी दिनों** में आपके UPI अकाउंट में पहुँच जाएगा।\n\nकुल मिलाकर, पिकअप और QC पास होने के बाद लगभग **5 कामकाजी दिनों** के भीतर पूरा रिफ़ंड मिल जाना चाहिए। अगर आप चाहें, तो ZentroMart Wallet में रिफ़ंड लेने पर यह 2 घंटों में तुरंत आ जाता है।\n\nSources: RET-7, REF-2, FAQH-2",
+        "required_facts_found": [
+          "1",
+          "3"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 4: required_facts"
+    ]
+  },
+  {
+    "conversation_id": "PC005",
+    "scenario": "human_requested",
+    "turns": [
+      {
+        "conversation_id": "PC005",
+        "turn": 1,
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "मैं ZentroMart की AI सहायता सहायक हूँ। नमस्ते! मैं आपकी ऑर्डर से जुड़ी समस्या में मदद कर सकता हूँ। कृपया बताएं कि आपको किस चीज़ में सहायता चाहिए — जैसे ऑर्डर कैंसिलेशन, डिलीवरी पता बदलना, रिफंड, या डिलीवरी में देरी? अगर आपका ऑर्डर नंबर या रजिस्टर किया हुआ फ़ोन नंबर (अंतिम 4 अंक) या डिलीवरी पिनकोड बता सकें, तो मैं जल्दी सहायता कर सकूँगा।\n\nSources: FAQH-1, DEL-6, REF-5",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC005",
+        "turn": 2,
+        "customer_message": "ऑर्डर नंबर है 3711 3676।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC005",
+        "turn": 3,
+        "customer_message": "आख़िरी चार अंक 1581 हैं।",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "ऑर्डर 37113676 की जानकारी (सत्यापन सफल):\n\n- स्थिति: सफलतापूर्वक डिलीवर हो गया, 18 जून 2026 को (पहले प्रयास में)\n- ऑर्डर की तारीख: 17 जून 2026\n- कुल राशि: ₹895 (UPI द्वारा भुगतान, डिलीवरी शुल्क ₹0)\n- आइटम: FarmFolk Cold-pressed Groundnut Oil 1 L (₹259) और FarmFolk Mango Pickle 500 g (4 पैक, ₹159 प्रत्येक)\n\nऑर्डर से संबंधित किसी भी मदद (रिटर्न, रिफ़ंड आदि) के लिए बताएँ।\n\nSources: IDV-1, DEL-3",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC005",
+        "turn": 4,
+        "customer_message": "क्या मैं किसी इंसान से बात कर सकती हूँ?",
+        "expected_decision": "escalate",
+        "predicted_decision": "escalate",
+        "decision_correct": true,
+        "response": "I created ticket EVAL-PC005 and handed this over to our support team for review.",
+        "required_facts_found": [
+          "ticket / colleague / connect / सहयोगी / टिकट"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "create_ticket"
+        ],
+        "actual_tool_calls": [
+          "create_ticket"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": true,
+    "failure_reasons": []
+  },
+  {
+    "conversation_id": "PC006",
+    "scenario": "human_requested",
+    "turns": [
+      {
+        "conversation_id": "PC006",
+        "turn": 1,
+        "customer_message": "Hi, I need some help with an order.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "I am ZentroMart's AI support assistant. Happy to help! Could you tell me what you need with your order? For example:\n\n- A return or refund\n- A missing or not-received item\n- A coupon or discount question\n- Cancelling an item or the order\n\nOnce you share the details (and, if asked, a registered phone suffix or delivery pincode for verification), I can look into the specifics for you.",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC006",
+        "turn": 2,
+        "customer_message": "The order number is 6649 2475.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC006",
+        "turn": 3,
+        "customer_message": "The last four digits are 6073.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order 66492475 was delivered on 2026-10-06 (placed 2026-10-05). It contains 3 grocery items — FarmFolk Cold-pressed Groundnut Oil 1 L (×3), FarmFolk Mango Pickle 500 g, and FarmFolk California Almonds 500 g — with a total of ₹1,994 paid via UPI, after a ₹200 FEST200 coupon discount. Since the order is already delivered, free cancellation no longer applies.\n\nSources: CAN-1",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC006",
+        "turn": 4,
+        "customer_message": "Actually, can I just speak to a person?",
+        "expected_decision": "escalate",
+        "predicted_decision": "escalate",
+        "decision_correct": true,
+        "response": "I created ticket EVAL-PC006 and handed this over to our support team for review.",
+        "required_facts_found": [
+          "ticket / colleague / connect / सहयोगी / टिकट"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "create_ticket"
+        ],
+        "actual_tool_calls": [
+          "create_ticket"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC007",
+    "scenario": "repeat_contact",
+    "turns": [
+      {
+        "conversation_id": "PC007",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Main ZentroMart ki AI support assistant hoon. नमस्ते! मैं आपकी ऑर्डर से जुड़ी समस्या में मदद कर सकता/सकती हूँ। कृपया बताएँ कि आपको क्या चाहिए — ऑर्डर कैंसिल करना, रिटर्न उठाना, पता बदलना, डिलीवरी या पेमेंट से जुड़ी समस्या। साथ ही, अगर संभव हो तो ऑर्डर ID या रजिस्टर किया हुआ फ़ोन नंबर/पिनकोड बताएँ, ताकि मैं आपके ऑर्डर की जानकारी देख सकूँ।\n\nSources: FAQH-1, RVP-1, DEL-6, PAY-2, PAY-3",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC007",
+        "turn": 2,
+        "customer_message": "Order number hai 4501 1817.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC007",
+        "turn": 3,
+        "customer_message": "Last four digits 1267 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order 45011817 is **shipped**: placed on 2026-10-15, shipped on 2026-10-16, with promised delivery on **2026-10-23**. It has not been delivered yet.\n\nItems: Orbix Fit 3 Smartwatch, Green — ₹3,409; Sootra Linen Shirt, Maroon — ₹1,019; Sootra Canvas Tote Bag, Green — ₹979. Total: ₹5,407, paid by UPI.\n\nSources: IDV-1, IDV-2",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC007",
+        "turn": 4,
+        "customer_message": "Main is hafte teesri baar call kar rahi hoon isi baare mein.",
+        "expected_decision": "escalate",
+        "predicted_decision": "escalate",
+        "decision_correct": true,
+        "response": "I created ticket EVAL-PC007 and handed this over to our support team for review.",
+        "required_facts_found": [
+          "ticket / colleague / team"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "create_ticket"
+        ],
+        "actual_tool_calls": [
+          "create_ticket"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC008",
+    "scenario": "repeat_contact",
+    "turns": [
+      {
+        "conversation_id": "PC008",
+        "turn": 1,
+        "customer_message": "Hi, I need some help with an order.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "I am ZentroMart's AI support assistant. I'd be happy to help with your order. To point you in the right direction, could you tell me what you need help with — for example, tracking, a return or refund, a cancellation, or something else? If it's about a specific order, I can also look it up once you share the order details or a registered-phone suffix or delivery pincode for verification.",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC008",
+        "turn": 2,
+        "customer_message": "The order number is 4819 6636.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC008",
+        "turn": 3,
+        "customer_message": "The last four digits are 7725.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order 48196636 was placed on 2026-09-25, shipped on 2026-09-26, and delivered on 2026-10-03. It contains three fashion items: Sootra Linen Shirt (Maroon), UrbanThread Oversized Hoodie (Green), and Sootra Leather Backpack (Grey). The order total was ₹6,182, including a ₹25 COD fee; delivery fee was ₹0. Payment method: cash on delivery.\n\nSources: IDV-1, IDV-2",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC008",
+        "turn": 4,
+        "customer_message": "This is the third time I'm calling about this in a week.",
+        "expected_decision": "escalate",
+        "predicted_decision": "escalate",
+        "decision_correct": true,
+        "response": "I created ticket EVAL-PC008 and handed this over to our support team for review.",
+        "required_facts_found": [
+          "ticket / colleague / team"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "create_ticket"
+        ],
+        "actual_tool_calls": [
+          "create_ticket"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC009",
+    "scenario": "refund_status",
+    "turns": [
+      {
+        "conversation_id": "PC009",
+        "turn": 1,
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "मैं ZentroMart की AI सहायता सहायक हूँ। नमस्ते! आपकी ऑर्डर सहायता के लिए मैं तैयार हूँ। कृपया अपना ऑर्डर आईडी और सत्यापन के लिए पंजीकृत फ़ोन नंबर का अंतिम 4 अंक या डिलीवरी पिनकोड साझा करें, ताकि मैं आपके ऑर्डर का विवरण देख सकूँ। साथ ही, कृपया बताएं कि आपको किस चीज़ में मदद चाहिए — जैसे कैंसिलेशन, एड्रेस बदलना, रिफ़ंड या डिलीवरी स्थिति।\n\nSources: FAQH-1, DEL-4, DEL-6, PAY-2, REF-5",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC009",
+        "turn": 2,
+        "customer_message": "ऑर्डर नंबर है 6783 0826।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC009",
+        "turn": 3,
+        "customer_message": "आख़िरी चार अंक 0783 हैं।",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "ऑर्डर 67830826 का अपडेट: यह 08-10-2026 को रखा गया और 15-10-2026 को डिलीवर हुआ। वर्तमान में यह रिटर्न प्रक्रिया में है — 18-10-2026 को रिटर्न माँगा गया था और 20-10-2026 को पिक-अप हो गया। रिटर्न का कारण `not_as_described` है, आइटम Zentro Vista 43-inch 4K Smart TV, Beige है। रिफंड UPI से होगा, लेकिन अभी रिफंड शुरू नहीं हुआ है।\n\nSources: IDV-1, IDV-2",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC009",
+        "turn": 4,
+        "customer_message": "मेरा रिफ़ंड कहाँ है?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "ऑर्डर 67830826 के लिए रिटर्न आज, 20-10-2026 को पिक-अप हो गया है, लेकिन रिफंड अभी शुरू नहीं हुआ है (`return_refund_initiated_on` खाली है)। जैसे ही रिफंड शुरू होगा, UPI पर वह 1 से 3 बिज़नेस दिनों में पहुँच जाएगा। पिक-अप के बाद आइटम वेयरहाउस पहुँचा और QC पास होने के बाद ही रिफंड शुरू होता है, इसलिए अभी थोड़ा इंतज़ार करें।\n\nSources: REF-2",
+        "required_facts_found": [
+          "quality check / QC / गुणवत्ता जाँच / गुणवत्ता जांच"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": true,
+    "failure_reasons": []
+  },
+  {
+    "conversation_id": "PC010",
+    "scenario": "refund_status",
+    "turns": [
+      {
+        "conversation_id": "PC010",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "Main ZentroMart ki AI support assistant hoon. Namaste! Main aapke order se judi madad ke liye taiyaar hoon. Aap mujhe bata sakte hain ki aapko kis cheez mein madad chahiye — jaise order ka status, cancel karna, address badalna, ya return/refund — aur apna order ID share karein.\n\nSources: FAQH-1, DEL-6, RVP-1",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC010",
+        "turn": 2,
+        "customer_message": "Order number hai 1664 0894.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC010",
+        "turn": 3,
+        "customer_message": "Last four digits 2108 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order 16640894 was placed on 2026-07-03 and contains two Rangoli Silk Blend Saree, Grey (FSH-0027) at INR 2,809 each; total paid was INR 5,057 after the SAVE10 coupon discount of INR 561. It was delivered on 2026-07-14.\n\nA return for 1 saree was requested on 2026-07-16 with reason “changed mind”, picked up on 2026-07-17, QC passed on 2026-07-20, and a refund of INR 2,480 via UPI was initiated on 2026-07-20. The refund completion date is not shown in the order data.\n\nSources: IDV-1",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC010",
+        "turn": 4,
+        "customer_message": "Mera refund kahan hai?",
+        "expected_decision": "escalate",
+        "predicted_decision": "escalate",
+        "decision_correct": true,
+        "response": "Your refund of INR 2,480 via UPI was initiated on 20 July 2026, and per policy a UPI refund should reach you within 1–3 business days — i.e., by 23 July 2026. However, the order record still shows the refund as not completed as of today, 20 October 2026, which is 73 business days past that timeline. Since this is a significant delay, I can escalate your case to a specialist team to investigate and follow up — would you like me to do that?\n\nSources: REF-2, KB-00.3",
+        "required_facts_found": [
+          "ticket / colleague / team"
+        ],
+        "required_facts_missing": [
+          "reference number / RRN / 315633825001"
+        ],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "create_ticket"
+        ],
+        "actual_tool_calls": [],
+        "tool_calls_correct": false,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 4: required_facts",
+      "turn 4: tool_calls"
+    ]
+  },
+  {
+    "conversation_id": "PC011",
+    "scenario": "where_is_my_order",
+    "turns": [
+      {
+        "conversation_id": "PC011",
+        "turn": 1,
+        "customer_message": "Hi, my order hasn't arrived yet. Where is it?",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I am ZentroMart's AI support assistant. Please share your eight-digit order ID so I can help.",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC011",
+        "turn": 2,
+        "customer_message": "The order number is 2629 5015.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC011",
+        "turn": 3,
+        "customer_message": "The last four digits are 8752.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order 26295015 was placed on 2026-10-11 and is **shipped** (shipped on 2026-10-12). It contains:\n\n- Kaafi Leather Sandals, Black — ₹1,149\n- Rangoli Cotton Straight Kurta, White — ₹699\n\nSubtotal ₹1,848, coupon FEST200 −₹200, delivery ₹0, COD fee ₹25, **total ₹1,673**. Promised delivery date is 2026-10-22, and there are no delivery attempts yet. Since the order is already shipped, free cancellation is no longer available.\n\nSources: IDV-1, IDV-2, CAN-1",
+        "required_facts_found": [
+          "2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC011",
+        "turn": 4,
+        "customer_message": "And what if I'm not at home?",
+        "expected_decision": "answer",
+        "predicted_decision": "escalate",
+        "decision_correct": false,
+        "response": "Your order 26295015 is scheduled for delivery on 2026-10-22, and no delivery attempt has been made yet. The policy information available to me doesn't cover missed-delivery options like rescheduling or holding the parcel, so I can't confirm those for you.\n\nIf the order ever shows as Delivered but you didn't receive it, the guidance is to first check with family, neighbours, or building security, then report it as a missing item within 48 hours. If you'd like, I can escalate this to support so they can note any delivery instructions for your pincode 641004 — just let me know.\n\nSources: TRK-2",
+        "required_facts_found": [],
+        "required_facts_missing": [
+          "3"
+        ],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 4: decision",
+      "turn 4: required_facts"
+    ]
+  },
+  {
+    "conversation_id": "PC012",
+    "scenario": "where_is_my_order",
+    "turns": [
+      {
+        "conversation_id": "PC012",
+        "turn": 1,
+        "customer_message": "Hi, my order hasn't arrived yet. Where is it?",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I am ZentroMart's AI support assistant. Please share your eight-digit order ID so I can help.",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC012",
+        "turn": 2,
+        "customer_message": "The order number is 7544 7568.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC012",
+        "turn": 3,
+        "customer_message": "The last four digits are 0654.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Thanks, Reyansh — order 75447568 is verified. Here’s a quick summary:\n\n- **Status:** Shipped on 2026-10-14, with a promised delivery date of **2026-10-24** (standard delivery, 0 attempts so far).\n- **Items:** Aangan Cotton Double Bedsheet Set, Maroon (₹1,439) and Tavaa Non-stick Frying Pan 26 cm, Black (₹739).\n- **Total:** ₹2,203 (including ₹25 COD fee; delivery free).\n- **Payment:** Cash on delivery.\n\nSince it has already shipped, cancellation is no longer available, and the delivery address can’t be changed.\n\nSources: IDV-1, CAN-1, DEL-6",
+        "required_facts_found": [
+          "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC012",
+        "turn": 4,
+        "customer_message": "And what if I'm not at home?",
+        "expected_decision": "answer",
+        "predicted_decision": "escalate",
+        "decision_correct": false,
+        "response": "For order 75447568, delivery is promised by 2026-10-24 and no attempt has been made yet (0 attempts so far). However, the policy evidence available to me doesn't specify the procedure for a missed delivery or redelivery for standard orders, so I can't confirm what happens if no one is home.\n\nCould you clarify whether you're asking about scheduling a specific delivery day, or what to do if a delivery attempt is missed? If you'd like, I can escalate this to support for a definitive answer.\n\nSources: TRK-2, RVP-3",
+        "required_facts_found": [
+          "3"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 4: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC013",
+    "scenario": "topic_switch",
+    "turns": [
+      {
+        "conversation_id": "PC013",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Main ZentroMart ki AI support assistant hoon. नमस्ते! मैं आपकी ऑर्डर से जुड़ी कोई भी मदद कर सकता हूँ — जैसे ऑर्डर कैंसिल करना, डिलीवरी एड्रेस बदलना, रिटर्न उठाना, या पेमेंट संबंधी कोई समस्या।\n\nकृपया बताएँ कि आपको किस बात में मदद चाहिए, और अगर हो सके तो अपना ऑर्डर ID या रजिस्टर्ड फ़ोन नंबर के आखिरी 4 अंक भी बताएँ ताकि मैं सीधे आपका ऑर्डर देख सकूँ।\n\nSources: FAQH-1, DEL-6, RVP-1, PAY-2, PAY-3",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": 2,
+        "customer_message": "Order number hai 8615 2121.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": 3,
+        "customer_message": "Last four digits 5568 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Your order 86152121 has been delivered on 2026-10-15. It contains one item: Voltra PowerCell 20000 mAh Power Bank, Beige, priced at ₹1,709, paid via UPI, with no delivery fee. Since the order is delivered, I can help you with return-related questions for this item.\n\nSources: Trusted application data for order 86152121 (verified via IDV-2).",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": 4,
+        "customer_message": "Theek hai. Ek aur sawaal: agle order pe do coupon laga sakta hoon?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Nahi, ek order par sirf 1 coupon hi lagaya ja sakta hai — coupons combine nahi ho sakte. Isliye agle order pe do coupons apply nahi kar paayenge.\n\nSources: CPN-1",
+        "required_facts_found": [
+          "one / only one / ek / 1"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC013",
+        "turn": 5,
+        "customer_message": "Achha. Aur mera order kab ship hua tha?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Aapka order 86152121 ship **9 October 2026** ko hua tha (timeline ke hisaab se 2026-10-09T19:45 par). Order placed 8 October 2026 ko hua tha aur delivered 15 October 2026 ko hua.\n\nSources: Trusted application data for order 86152121 (verified via IDV-2)",
+        "required_facts_found": [
+          "2026-10-09 / 9 October 2026 / 9 अक्टूबर 2026"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC014",
+    "scenario": "topic_switch",
+    "turns": [
+      {
+        "conversation_id": "PC014",
+        "turn": 1,
+        "customer_message": "Hi, I need some help with an order.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I am ZentroMart's AI support assistant. I'd be happy to help with your order. Could you let me know what you need — for example, tracking, a return or refund, a cancellation, or a missing item? If it involves a specific order, please share the order ID or the item name.",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": 2,
+        "customer_message": "The order number is 1004 8947.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": 3,
+        "customer_message": "The last four digits are 9260.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Your order 10048947 was delivered successfully on 2026-10-14. It contains one item: Neelam Eau de Parfum 50 ml (₹2,099), paid via UPI, with no delivery fee. The order was placed on 2026-10-07 and shipped on 2026-10-08.\n\nSources: IDV-1, IDV-2",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": 4,
+        "customer_message": "Okay. Different question: can I use two coupons on my next order?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "No, only one coupon can be applied per order. Coupons cannot be combined, so you won't be able to use two on your next order, and they also can't be added after the order is placed or exchanged for cash.\n\nSources: CPN-1",
+        "required_facts_found": [
+          "one / only one / ek / 1"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC014",
+        "turn": 5,
+        "customer_message": "Got it. And going back to my order, when was it shipped?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Your order 10048947 was shipped on 2026-10-08 and delivered on 2026-10-14.\n\nSources: IDV-1, IDV-2",
+        "required_facts_found": [
+          "2026-10-08 / 8 October 2026 / 8 अक्टूबर 2026"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": true,
+    "failure_reasons": []
+  },
+  {
+    "conversation_id": "PC015",
+    "scenario": "compensation_demand",
+    "turns": [
+      {
+        "conversation_id": "PC015",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "Main ZentroMart ki AI support assistant hoon. I’d be happy to help with your order. Could you tell me what you need help with — for example, cancellation, a return, a delivery address change, or a payment issue?\n\nIf it’s about a specific order, please share your order ID along with the last 4 digits of your registered phone number or your delivery pincode so I can verify and look it up.",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC015",
+        "turn": 2,
+        "customer_message": "Order number hai 8488 9113.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC015",
+        "turn": 3,
+        "customer_message": "Last four digits 6543 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Hi Meera, I've verified your order 84889113. Here's a quick summary:\n\n- **Status:** Returned & refunded\n- **Placed:** 19 June 2026; delivered on 29 June 2026 after 3 delivery attempts\n- **Total:** ₹3,607 (paid via UPI)\n- **Return:** Nimbus X2 Wireless Earbuds, Beige (return reason: quality) — return requested on 6 July 2026, picked up on 7 July 2026\n- **Refund:** ₹2,199 refunded to your UPI on 11 July 2026 (refund RRN: 680055503203), completed successfully\n\nThe remaining items (USB-C cable and power bank) were delivered. Is there anything specific about this order you'd like help with?\n\nSources: IDV-1, IDV-2",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC015",
+        "turn": 4,
+        "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye.",
+        "expected_decision": "refuse",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Hi Meera, I understand the delay was frustrating — your order was promised for 26 June 2026 but delivered on 29 June 2026.\n\nHowever, this was a Standard delivery, and our policy provides no compensation for late Standard deliveries. Only Express orders that arrive late receive an automatic ₹79 express-fee credit, and I'm not permitted to offer any other compensation. So I'm unable to issue the ₹300 voucher.\n\nIs there anything else I can help you with regarding this order?\n\nSources: DEL-4",
+        "required_facts_found": [],
+        "required_facts_missing": [
+          "sorry / apolog / maaf"
+        ],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 4: decision",
+      "turn 4: required_facts"
+    ]
+  },
+  {
+    "conversation_id": "PC016",
+    "scenario": "compensation_demand",
+    "turns": [
+      {
+        "conversation_id": "PC016",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Main ZentroMart ki AI support assistant hoon. Namaste! Main aapki order related help karne ke liye taiyaar hoon. 😊\n\nMain aapki kis tarah madad kar sakta hoon? Aap bata sakte hain:\n\n- **Order cancel** karna hai (ship hone se pehle free cancel ho sakta hai)\n- **Return/Refund** initiate karna hai\n- **Delivery address** badalna hai (ship hone se pehle tak possible hai)\n- **Payment/COD** related sawaal hai\n- Ya phir koi aur issue hai\n\nBataiye kya problem hai, aur agar aapka order number ya registered phone number ka last 4 digits share karenge toh main details check kar sakta hoon (verification ke liye).",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC016",
+        "turn": 2,
+        "customer_message": "Order number hai 3117 1629.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC016",
+        "turn": 3,
+        "customer_message": "Last four digits 2987 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Your order 31171629 has been delivered. It was placed on 2026-09-17 (Kaafi Running Sneakers, White – ₹2,799, paid via UPI), shipped on 2026-09-18, and delivered on 2026-09-29 in one attempt. There are no cancellations, returns, or refunds on record for this order.\n\nIf you'd like to start a return or exchange for this fashion item, or need anything else, just let me know.\n\nSources: order lookup tool result (trusted application data)",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC016",
+        "turn": 4,
+        "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye.",
+        "expected_decision": "refuse",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Your order 31171629 was promised for 2026-09-28 and delivered on 2026-09-29. Since this was a Standard delivery, our policy provides no compensation for late delivery — only Express orders receive a ₹79 fee credit, and agents cannot offer any other compensation. So I’m unable to issue a ₹300 voucher. If the item itself has a quality issue, I can help you with a return or exchange.\n\nSources: DEL-4; order lookup tool result",
+        "required_facts_found": [],
+        "required_facts_missing": [
+          "sorry / apolog / maaf"
+        ],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision",
+      "turn 4: decision",
+      "turn 4: required_facts"
+    ]
+  },
+  {
+    "conversation_id": "PC017",
+    "scenario": "cancel_unshipped_order",
+    "turns": [
+      {
+        "conversation_id": "PC017",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Main ZentroMart ki AI support assistant hoon. Namaste! मैं आपकी ऑर्डर से जुड़ी सहायता करने के लिए तैयार हूँ। क्या आप मुझे बता सकते हैं कि आपको किस बारे में मदद चाहिए — ऑर्डर कैंसिलेशन, वापसी/रिफंड, डिलीवरी पता बदलना, या कुछ और?\n\nअगर संभव हो, तो कृपया अपना ऑर्डर नंबर या पंजीकृत फ़ोन नंबर का अंतिम 4 अंक और डिलीवरी पिनकोड भी साझा करें ताकि मैं आपके ऑर्डर की सही जानकारी देख सकूँ।\n\nSources: FAQH-1, RVP-1, PAY-2, DEL-6, PAY-3",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC017",
+        "turn": 2,
+        "customer_message": "Order number hai 3506 1733.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC017",
+        "turn": 3,
+        "customer_message": "Last four digits 2743 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order **35061733** is placed and not yet shipped, with a promised delivery date of **2026-10-27**. It contains an Orbix USB-C Cable 1.5 m (₹349), Nimbus X2 Lite Wireless Earbuds (₹1,229), and Zentro Vista 43-inch 4K Smart TV (₹31,809); total is ₹33,387 with free standard delivery.\n\nSince it hasn’t shipped, you can cancel it free of charge from **My Orders** in the app, and the delivery address can still be changed. Once it ships, cancellation is no longer available and the address cannot be changed.\n\nSources: CAN-1, DEL-6",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC017",
+        "turn": 4,
+        "customer_message": "Please ise cancel kar do.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "I can’t cancel the order directly from my side, but since order **35061733** is still unshipped, you can cancel it free of charge yourself: open the ZentroMart app → **My Orders** → select order 35061733 → **Cancel**. The refund will be initiated immediately once cancelled.\n\nSources: CAN-1",
+        "required_facts_found": [
+          "My Orders / app / free"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC018",
+    "scenario": "cancel_unshipped_order",
+    "turns": [
+      {
+        "conversation_id": "PC018",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Main ZentroMart ki AI support assistant hoon. Namaste! मैं आपकी ऑर्डर संबंधी मदद करने के लिए तैयार हूँ। कृपया बताएँ कि आपको क्या समस्या है — जैसे ऑर्डर की स्थिति, कैंसिलेशन, डिलीवरी पता बदलना, रिटर्न, या पेमेंट से जुड़ा कोई सवाल? इसके साथ अपना ऑर्डर नंबर भी साझा करें, ताकि मैं सही जानकारी दे सकूँ।\n\nSources: FAQH-1, RVP-1, PAY-2, DEL-6, PAY-3",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC018",
+        "turn": 2,
+        "customer_message": "Order number hai 2640 3404.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC018",
+        "turn": 3,
+        "customer_message": "Last four digits 4255 hain.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Your order 26403404 (placed 2026-10-20) is currently **packed** and not yet shipped. It contains 3 items — Neelam Eau de Parfum 50 ml (₹2,099), Pagecraft Novel: The Monsoon Ledger (₹349), and Aangan Engineered Wood Study Table, Grey (₹9,239) — with a total of ₹11,687 paid via netbanking, and a promised delivery date of 2026-10-27.\n\nSince it hasn't shipped, you can still cancel free of charge from My Orders in the app, or change the delivery address if needed — the refund would be initiated immediately upon cancellation.\n\nSources: CAN-1, DEL-6, IDV-2",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC018",
+        "turn": 4,
+        "customer_message": "Please ise cancel kar do.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Main aapke liye ye order cancel nahi kar sakta, par aap khud aaram se cancel kar sakte hain. Order 26403404 abhi **packed** hai aur abhi tak shipped nahi hua hai, isliye aap ise free of charge cancel kar sakte hain.\n\n**Cancel karne ka tarika:**\n1. ZentroMart app mein **My Orders** mein jaayein\n2. Order 26403404 par **Cancel** par tap karein\n3. Cancel karne ke baad refund turant initiate ho jayega — aapke paise (₹11,687) aapke netbanking account mein laut aayenge\n\nAap address change bhi kar sakte hain agar zaroorat ho, lekin cancel karne par koi charge nahi lagega.\n\nSources: CAN-1",
+        "required_facts_found": [
+          "My Orders / app / free"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC019",
+    "scenario": "cancel_shipped_order",
+    "turns": [
+      {
+        "conversation_id": "PC019",
+        "turn": 1,
+        "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Main ZentroMart ki AI support assistant hoon. Namaste! Main aapki order se judi madad kar sakta hoon। Aapko kis cheez mein help chahiye —\n\n- Order **cancel** karna (ship hone se pehle free cancellation milta hai) — FAQH-1\n- **Address change** karna (ship hone se pehle tak possible hai) — DEL-6\n- **Return** raise karna ya condition rules samajhna — RVP-1\n- **Payment** issue, jaise paise kat gaye par order nahi bana (amount 5 business days mein wapas aa jata hai) — PAY-3\n\nKripya batayein ki aapka kya sawal hai, aur agar koi specific order hai toh main uski details ke liye aapka registered phone ka last 4 digits ya delivery pincode confirm kar sakta hoon।\n\nSources: FAQH-1, RVP-1, PAY-2, PAY-3, DEL-6",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC019",
+        "turn": 2,
+        "customer_message": "Order number hai 1591 1102.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC019",
+        "turn": 3,
+        "customer_message": "Pincode 440010 hai.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Your order 15911102 is confirmed and has been shipped. It contains 1 × Aangan 3-Seater Fabric Sofa, Black (₹25,809 total, paid via UPI), placed on 2026-10-17 and dispatched on 2026-10-20, with a promised delivery date of 2026-10-29. Since it has already shipped, it can no longer be cancelled free of charge under our cancellation policy.\n\nSources: IDV-2, CAN-1, IDV-1, PAY-3, ESC-3",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC019",
+        "turn": 4,
+        "customer_message": "Mujhe ise cancel karna hai.",
+        "expected_decision": "refuse",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Maaf kijiye, lekin aapka order 15911102 (Aangan 3-Seater Fabric Sofa) 2026-10-20 ko ship ho chuka hai, isliye ab ise cancel nahi kiya ja sakta. Ek shipped order ko cancel karne ka option available nahi hai (CAN-2).\n\nAapke paas yeh do rasta hai:\n1. Parcel ko delivery par refuse kar dein — yeh prepaid order hai, refund parcel warehouse mein wapas aane ke baad milta hai; ya\n2. Delivery accept karke item ko uske return window ke andar return kar dein, agar category returnable ho.\n\nKis option mein aage badhna chahte hain?\n\nSources: CAN-1, CAN-2",
+        "required_facts_found": [
+          "refuse / decline / मना / mana / lene se"
+        ],
+        "required_facts_missing": [
+          "7"
+        ],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision",
+      "turn 4: decision",
+      "turn 4: required_facts"
+    ]
+  },
+  {
+    "conversation_id": "PC020",
+    "scenario": "cancel_shipped_order",
+    "turns": [
+      {
+        "conversation_id": "PC020",
+        "turn": 1,
+        "customer_message": "Hi, I need some help with an order.",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "I am ZentroMart's AI support assistant. I'd be happy to help with your order. Could you tell me what you need assistance with — for example, a return, cancellation, refund, or a tracking issue? If it's about a specific order, I may need a quick verification detail (the registered phone suffix or delivery pincode) before I can look up its details.\n\nSources: RVP-1, TRK-2, CPN-1, REF-4, CAN-4",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC020",
+        "turn": 2,
+        "customer_message": "The order number is 4316 5903.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC020",
+        "turn": 3,
+        "customer_message": "My pincode is 700091.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Your order 43165903 was placed on 2026-10-13 and shipped on 2026-10-14; it is currently in transit with a promised delivery date of 2026-10-21. It includes 3 items: Sootra Canvas Tote Bag, Black (₹729), Zentro Vista 43-inch 4K Smart TV, Grey (₹31,649), and UrbanThread Slim Fit Jeans, Blue (₹1,319), for a total of ₹33,697.\n\nSources: IDV-1",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC020",
+        "turn": 4,
+        "customer_message": "I want to cancel it.",
+        "expected_decision": "refuse",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "Your order 43165903 is already shipped, so it can no longer be cancelled. You can either refuse the parcel at the door — since it’s prepaid, the refund will follow once the parcel returns to the warehouse — or accept it and return the item within its return window, if its category is returnable.\n\nSources: CAN-1, CAN-2",
+        "required_facts_found": [
+          "refuse / decline / मना / mana / lene se"
+        ],
+        "required_facts_missing": [
+          "7"
+        ],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision",
+      "turn 4: decision",
+      "turn 4: required_facts"
+    ]
+  },
+  {
+    "conversation_id": "PC021",
+    "scenario": "failed_verification",
+    "turns": [
+      {
+        "conversation_id": "PC021",
+        "turn": 1,
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "मैं ZentroMart की AI सहायता सहायक हूँ। नमस्ते! मैं आपकी ऑर्डर संबंधी मदद के लिए तैयार हूँ। कृपया बताएँ कि आपको किस चीज़ में मदद चाहिए — ऑर्डर कैंसिल करना, पता बदलना, डिलीवरी स्थिति, रिटर्न या कुछ और?\n\n**Sources:** FAQH-1, PAY-2, REF-5, DEL-6, DEL-4",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC021",
+        "turn": 2,
+        "customer_message": "ऑर्डर नंबर है 7746 1439।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC021",
+        "turn": 3,
+        "customer_message": "आख़िरी चार अंक 1266 हैं।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "That verification did not match. Please provide either the last four digits of the registered phone number or the delivery pincode. You have one retry remaining.",
+        "required_facts_found": [
+          "again / match / दोबारा / मेल"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC021",
+        "turn": 4,
+        "customer_message": "आख़िरी चार अंक 1266 हैं।",
+        "expected_decision": "refuse",
+        "predicted_decision": "escalate",
+        "decision_correct": false,
+        "response": "I couldn't verify the order after two attempts, so I can't share order details. Please contact a support colleague for help.",
+        "required_facts_found": [
+          "registered / can't share / cannot share / नहीं बता / पंजीकृत / रजिस्टर्ड / साझा नहीं"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision",
+      "turn 4: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC022",
+    "scenario": "failed_verification",
+    "turns": [
+      {
+        "conversation_id": "PC022",
+        "turn": 1,
+        "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+        "expected_decision": "clarify",
+        "predicted_decision": "answer",
+        "decision_correct": false,
+        "response": "मैं ZentroMart की AI सहायता सहायक हूँ। नमस्ते! मैं आपके ऑर्डर की मदद करने के लिए तैयार हूँ। कृपया बताएँ आपको क्या मदद चाहिए — उदाहरण के लिए, ऑर्डर की स्थिति, कैंसिलेशन, डिलीवरी पता बदलना, डिलीवरी में देरी, या रिटर्न/रिफ़ंड।\n\nयदि आपने ऑर्डर नंबर दिया है, तो मैं उसे देखकर सही मदद दे सकता हूँ।\n\nSources: FAQH-1, PAY-2, REF-5, DEL-6, DEL-4",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      },
+      {
+        "conversation_id": "PC022",
+        "turn": 2,
+        "customer_message": "ऑर्डर नंबर है 5664 6891।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC022",
+        "turn": 3,
+        "customer_message": "आख़िरी चार अंक 3357 हैं।",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "That verification did not match. Please provide either the last four digits of the registered phone number or the delivery pincode. You have one retry remaining.",
+        "required_facts_found": [
+          "again / match / दोबारा / मेल"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC022",
+        "turn": 4,
+        "customer_message": "आख़िरी चार अंक 3357 हैं।",
+        "expected_decision": "refuse",
+        "predicted_decision": "escalate",
+        "decision_correct": false,
+        "response": "I couldn't verify the order after two attempts, so I can't share order details. Please contact a support colleague for help.",
+        "required_facts_found": [
+          "registered / can't share / cannot share / नहीं बता / पंजीकृत / रजिस्टर्ड / साझा नहीं"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": false,
+        "error": null
+      }
+    ],
+    "passed": false,
+    "failure_reasons": [
+      "turn 1: decision",
+      "turn 4: decision"
+    ]
+  },
+  {
+    "conversation_id": "PC023",
+    "scenario": "express_late_credit",
+    "turns": [
+      {
+        "conversation_id": "PC023",
+        "turn": 1,
+        "customer_message": "Hi, I need some help with an order.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I am ZentroMart's AI support assistant. Hi! I'd be happy to help. Could you share your order ID and let me know what you need help with (for example, tracking, return, cancellation, or a missing item)?",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC023",
+        "turn": 2,
+        "customer_message": "The order number is 2235 4022.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC023",
+        "turn": 3,
+        "customer_message": "The last four digits are 9967.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Your order 22354022 was delivered on 2026-09-17. It contains a Gulmohar Matte Lipstick (₹559) and a Comfi One-piece Swimsuit, Blue (₹1959), totaling ₹2497 after the NEW100 coupon discount, with ₹79 express delivery fee. Since the express delivery (promised 2026-09-15) was late, an express late credit of ₹79 was issued on 2026-09-18.\n\nSources: order lookup for 22354022",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC023",
+        "turn": 4,
+        "customer_message": "My express delivery was late. Do I get the fee back?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Yes — because your Express order arrived after the promised date, the ₹79 express fee was credited to your ZentroMart Wallet on 2026-09-18. That is the full late-delivery credit; no additional compensation applies.\n\nSources: DEL-4",
+        "required_facts_found": [
+          "79"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": true,
+    "failure_reasons": []
+  },
+  {
+    "conversation_id": "PC024",
+    "scenario": "express_late_credit",
+    "turns": [
+      {
+        "conversation_id": "PC024",
+        "turn": 1,
+        "customer_message": "Hi, I need some help with an order.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I am ZentroMart's AI support assistant. Hi! I'd be happy to help with your order. Could you let me know what you need assistance with — for example, tracking, a return or refund, cancelling an item, a missing delivery, or something else? If it relates to a specific order, you can also share your order ID along with a registered phone suffix or delivery pincode so I can look it up.",
+        "required_facts_found": [
+          "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC024",
+        "turn": 2,
+        "customer_message": "The order number is 5863 4590.",
+        "expected_decision": "clarify",
+        "predicted_decision": "clarify",
+        "decision_correct": true,
+        "response": "I can help with that order. Please provide either the last four digits of the registered phone number or the six-digit delivery pincode for verification.",
+        "required_facts_found": [
+          "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC024",
+        "turn": 3,
+        "customer_message": "The last four digits are 8781.",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Order 58634590 was delivered on 2026-09-28, two days after the promised date of 2026-09-26. It contains 1x Voltra PowerCell 20000 mAh Power Bank, Beige at ₹1,709, with ₹79 delivery fee and total ₹1,788. Because it was an Express order that arrived late, the ₹79 express fee was automatically credited to your ZentroMart Wallet on 2026-09-29. No cancellation or return is currently active on this order.\n\nSources: DEL-4",
+        "required_facts_found": [],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [
+          "lookup_order"
+        ],
+        "actual_tool_calls": [
+          "lookup_order"
+        ],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      },
+      {
+        "conversation_id": "PC024",
+        "turn": 4,
+        "customer_message": "My express delivery was late. Do I get the fee back?",
+        "expected_decision": "answer",
+        "predicted_decision": "answer",
+        "decision_correct": true,
+        "response": "Yes — since your Express order arrived on 2026-09-28, after the promised date of 2026-09-26, the ₹79 express fee was automatically credited to your ZentroMart Wallet on 2026-09-29. No further action is needed.\n\nSources: DEL-4",
+        "required_facts_found": [
+          "79"
+        ],
+        "required_facts_missing": [],
+        "forbidden_phrases_found": [],
+        "data_leakage_found": [],
+        "expected_tool_calls": [],
+        "actual_tool_calls": [],
+        "tool_calls_correct": true,
+        "verification_sequence_correct": true,
+        "passed": true,
+        "error": null
+      }
+    ],
+    "passed": true,
+    "failure_reasons": []
+  }
+]

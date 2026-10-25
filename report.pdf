@@ -1,0 +1,361 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 6305 >>
+stream
+q 0.0314 0.4941 0.5137 rg 0.00 835.89 595.28 6.00 re f Q
+BT /F2 8.20 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 809.89 Tm (VOICEOPS 2026  /  CAPSTONE REPORT) Tj ET
+BT /F2 8.20 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 493.78 809.89 Tm (ZENTROMART) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 795.89 m 553.28 795.89 l S Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 42.00 756.89 Tm (ZentroMart Voice Support) Tj ET
+BT /F1 9.30 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 733.89 Tm (A document-grounded customer-support agent for the VoiceOps 2026 capstone.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 49.89 m 553.28 49.89 l S Q
+BT /F1 7.20 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 31.89 Tm (ZentroMart  |  Implementation & evaluation) Tj ET
+BT /F2 8.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 527.72 31.89 Tm (01 / 04) Tj ET
+BT /F2 16.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 42.00 686.89 Tm (From customer speech to a grounded reply.) Tj ET
+BT /F1 10.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 662.89 Tm (The system combines policy retrieval, verified synthetic order tools and conversation memory. Gnani provides both) Tj ET
+BT /F1 10.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 647.89 Tm (speech recognition and speech synthesis; support decisions remain in the shared text agent.) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 534.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 42.00 534.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 56.00 581.89 Tm (61.5%) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 562.89 Tm (RAG question pass rate) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 56.00 546.89 Tm (32/52 practice questions) Tj ET
+q 0.9451 0.9608 0.9686 rg 215.76 534.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 215.76 534.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 229.76 581.89 Tm (77.1%) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 229.76 562.89 Tm (Conversation turn pass rate) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 229.76 546.89 Tm (74/96 customer turns) Tj ET
+q 0.9451 0.9608 0.9686 rg 389.52 534.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 389.52 534.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 403.52 581.89 Tm (8/8) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 403.52 562.89 Tm (Voice batch completed) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 403.52 546.89 Tm (Saved end-to-end run) Tj ET
+q 0.0314 0.4941 0.5137 rg 42.00 493.89 3.00 12.00 re f Q
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 53.00 496.89 Tm (ONE TURN THROUGH THE SYSTEM) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 405.89 120.32 73.00 re f Q
+BT /F2 7.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 52.00 461.89 Tm (01 / LISTEN) Tj ET
+BT /F2 10.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 52.00 442.89 Tm (Gnani STT) Tj ET
+BT /F1 7.30 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 52.00 425.89 Tm (Customer audio to text) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 164.32 440.89 Tm (>) Tj ET
+q 0.0784 0.1765 0.2510 rg 172.32 405.89 120.32 73.00 re f Q
+BT /F2 7.00 Tf 0.5529 0.8392 0.8275 rg 1 0 0 1 182.32 461.89 Tm (02 / REASON) Tj ET
+BT /F2 10.00 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 182.32 442.89 Tm (Support agent) Tj ET
+BT /F1 7.30 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 182.32 425.89 Tm (Retrieval, tools, context) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 294.64 440.89 Tm (>) Tj ET
+q 0.9451 0.9608 0.9686 rg 302.64 405.89 120.32 73.00 re f Q
+BT /F2 7.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 312.64 461.89 Tm (03 / SPEAK) Tj ET
+BT /F2 10.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 312.64 442.89 Tm (Gnani TTS) Tj ET
+BT /F1 7.30 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 312.64 425.89 Tm (Reply text to speech) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 424.96 440.89 Tm (>) Tj ET
+q 0.9451 0.9608 0.9686 rg 432.96 405.89 120.32 73.00 re f Q
+BT /F2 7.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 442.96 461.89 Tm (04 / RECORD) Tj ET
+BT /F2 10.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 442.96 442.89 Tm (Saved artifacts) Tj ET
+BT /F1 7.30 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 442.96 425.89 Tm (Text, audio and evidence) Tj ET
+q 0.0314 0.4941 0.5137 rg 42.00 363.89 3.00 12.00 re f Q
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 53.00 366.89 Tm (FOUR IMPLEMENTATION STAGES) Tj ET
+BT /F2 17.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 336.89 Tm (1) Tj ET
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 72.00 339.89 Tm (LLM baseline) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 72.00 323.89 Tm (API-based assistant with role, uncertainty and action limits.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 299.89 m 553.28 299.89 l S Q
+BT /F2 17.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 278.89 Tm (2) Tj ET
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 72.00 281.89 Tm (Grounded retrieval) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 72.00 265.89 Tm (Markdown sections, embeddings, FAISS/BM25 candidates and a multilingual cross-encoder reranker.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 241.89 m 553.28 241.89 l S Q
+BT /F2 17.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 220.89 Tm (3) Tj ET
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 72.00 223.89 Tm (Conversation + tools) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 72.00 207.89 Tm (Order verification, contextual follow-ups, topic changes, ticket creation and human handover.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 183.89 m 553.28 183.89 l S Q
+BT /F2 17.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 162.89 Tm (4) Tj ET
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 72.00 165.89 Tm (Voice + batch) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 72.00 149.89 Tm (Gnani STT/TTS, microphone conversation client and a folder-based evaluator with per-call artifacts.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 125.89 m 553.28 125.89 l S Q
+q 0.9451 0.9608 0.9686 rg 42.00 58.89 511.28 54.00 re f Q
+q 0.0314 0.4941 0.5137 rg 42.00 58.89 3.00 54.00 re f Q
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 56.00 92.89 Tm (Dataset rules) Tj ET
+BT /F1 8.60 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 75.89 Tm (Synthetic data only. Reference date: 20 October 2026. Business days: Monday-Saturday, excluding warehouse holidays;) Tj ET
+BT /F1 8.60 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 63.89 Tm (return windows use calendar days.) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 6669 >>
+stream
+q 0.0314 0.4941 0.5137 rg 0.00 835.89 595.28 6.00 re f Q
+BT /F2 8.20 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 809.89 Tm (VOICEOPS 2026  /  CAPSTONE REPORT) Tj ET
+BT /F2 8.20 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 493.78 809.89 Tm (ZENTROMART) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 795.89 m 553.28 795.89 l S Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 42.00 756.89 Tm (Measured performance) Tj ET
+BT /F1 9.30 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 733.89 Tm (Latest saved practice runs. These results describe observed outputs, not an organizer-assigned score.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 49.89 m 553.28 49.89 l S Q
+BT /F1 7.20 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 31.89 Tm (ZentroMart  |  Implementation & evaluation) Tj ET
+BT /F2 8.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 527.72 31.89 Tm (02 / 04) Tj ET
+q 0.0314 0.4941 0.5137 rg 42.00 687.89 3.00 12.00 re f Q
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 53.00 690.89 Tm (STEP 1 VS STEP 2 / QUESTION PASS RATE) Tj ET
+BT /F2 9.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 652.89 Tm (LLM baseline) Tj ET
+q 0.9451 0.9608 0.9686 rg 155.00 648.89 319.28 15.00 re f Q
+q 0.3804 0.4510 0.5137 rg 155.00 648.89 24.56 15.00 re f Q
+BT /F2 11.00 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 527.08 652.89 Tm (7.7%) Tj ET
+BT /F2 9.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 613.89 Tm (Grounded RAG) Tj ET
+q 0.9451 0.9608 0.9686 rg 155.00 609.89 319.28 15.00 re f Q
+q 0.0314 0.4941 0.5137 rg 155.00 609.89 196.48 15.00 re f Q
+BT /F2 11.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 520.69 613.89 Tm (61.5%) Tj ET
+BT /F2 8.50 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 155.00 588.89 Tm (Observed improvement: +53.8 percentage points) Tj ET
+q 0.0784 0.1765 0.2510 rg 42.00 542.89 511.28 27.00 re f Q
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 53.00 551.89 Tm (Question metric) Tj ET
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 390.28 551.89 Tm (Step 1) Tj ET
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 477.28 551.89 Tm (Step 2) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 517.89 511.28 25.00 re f Q
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 525.89 Tm (Questions passed) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 390.28 525.89 Tm (4/52) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 477.28 525.89 Tm (32/52) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 517.89 m 553.28 517.89 l S Q
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 500.89 Tm (Decision accuracy) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 390.28 500.89 Tm (38.5%) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 477.28 500.89 Tm (80.8%) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 492.89 m 553.28 492.89 l S Q
+q 0.9451 0.9608 0.9686 rg 42.00 467.89 511.28 25.00 re f Q
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 475.89 Tm (Required-fact accuracy) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 390.28 475.89 Tm (15.4%) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 477.28 475.89 Tm (88.5%) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 467.89 m 553.28 467.89 l S Q
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 450.89 Tm (Grounded-answer accuracy) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 390.28 450.89 Tm (--) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 477.28 450.89 Tm (65.4%) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 442.89 m 553.28 442.89 l S Q
+q 0.9451 0.9608 0.9686 rg 42.00 417.89 511.28 25.00 re f Q
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 425.89 Tm (Retrieval hit rate / MRR) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 390.28 425.89 Tm (--) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 477.28 425.89 Tm (80.9% / 0.623) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 417.89 m 553.28 417.89 l S Q
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 400.89 Tm (Unsupported-question abstention) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 390.28 400.89 Tm (--) Tj ET
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 477.28 400.89 Tm (60.0%) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 392.89 m 553.28 392.89 l S Q
+q 0.0314 0.4941 0.5137 rg 42.00 355.89 3.00 12.00 re f Q
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 53.00 358.89 Tm (MULTI-TURN CONVERSATIONS) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 265.89 249.64 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 42.00 265.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 56.00 312.89 Tm (74/96) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 293.89 Tm (Customer turns passed) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 56.00 277.89 Tm (77.1%) Tj ET
+q 0.9451 0.9608 0.9686 rg 303.64 265.89 249.64 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 303.64 265.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 317.64 312.89 Tm (6/23) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 317.64 293.89 Tm (Complete conversations passed) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 317.64 277.89 Tm (26.1%) Tj ET
+q 0.0784 0.1765 0.2510 rg 42.00 221.89 511.28 27.00 re f Q
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 53.00 230.89 Tm (Control / behavior) Tj ET
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 308.64 230.89 Tm (Recorded accuracy) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 198.89 511.28 23.00 re f Q
+BT /F1 8.80 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 204.89 Tm (Tool calls / verification sequence) Tj ET
+BT /F2 8.80 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 308.64 204.89 Tm (99.0% / 100.0%) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 198.89 m 553.28 198.89 l S Q
+BT /F1 8.80 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 181.89 Tm (Clarification / escalation) Tj ET
+BT /F2 8.80 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 308.64 181.89 Tm (75.0% / 100.0%) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 175.89 m 553.28 175.89 l S Q
+q 0.9451 0.9608 0.9686 rg 42.00 152.89 511.28 23.00 re f Q
+BT /F1 8.80 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 158.89 Tm (Ticket creation / leakage-free rate) Tj ET
+BT /F2 8.80 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 308.64 158.89 Tm (83.3% / 100.0%) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 152.89 m 553.28 152.89 l S Q
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 130.89 Tm (Step 1: 24 Oct 2026, 18:06 IST    |    Step 2: 25 Oct 2026, 15:53 IST) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 115.89 Tm (Conversations: 25 Oct 2026, 17:23 IST) Tj ET
+BT /F1 8.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 91.89 Tm (A conversation passes only when all its turns pass. Runs were recorded at different times; these results do not isolate the reranker's) Tj ET
+BT /F1 8.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 79.89 Tm (contribution or prove generalization to unseen cases.) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 7004 >>
+stream
+q 0.0314 0.4941 0.5137 rg 0.00 835.89 595.28 6.00 re f Q
+BT /F2 8.20 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 809.89 Tm (VOICEOPS 2026  /  CAPSTONE REPORT) Tj ET
+BT /F2 8.20 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 493.78 809.89 Tm (ZENTROMART) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 795.89 m 553.28 795.89 l S Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 42.00 756.89 Tm (Failure review & refinements) Tj ET
+BT /F1 9.30 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 733.89 Tm (Observed practice failures guide the next changes. Automatically suggested root causes remain hypotheses.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 49.89 m 553.28 49.89 l S Q
+BT /F1 7.20 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 31.89 Tm (ZentroMart  |  Implementation & evaluation) Tj ET
+BT /F2 8.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 527.72 31.89 Tm (03 / 04) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 620.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 42.00 620.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 56.00 667.89 Tm (20) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 648.89 Tm (RAG questions failed) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 56.00 632.89 Tm (Latest saved question run) Tj ET
+q 0.9451 0.9608 0.9686 rg 215.76 620.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 215.76 620.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 229.76 667.89 Tm (9) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 229.76 648.89 Tm (Retrieval misses) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 229.76 632.89 Tm (Among answerable failures) Tj ET
+q 0.9451 0.9608 0.9686 rg 389.52 620.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 389.52 620.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 403.52 667.89 Tm (6) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 403.52 648.89 Tm (Required-fact omissions) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 403.52 632.89 Tm (Categories may overlap) Tj ET
+q 0.0314 0.4941 0.5137 rg 42.00 578.89 3.00 12.00 re f Q
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 53.00 581.89 Tm (WHAT FAILED / WHAT TO IMPROVE) Tj ET
+q 0.0784 0.1765 0.2510 rg 42.00 537.89 511.28 27.00 re f Q
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 53.00 546.89 Tm (Failure pattern) Tj ET
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 171.00 546.89 Tm (Observed issue / likely cause) Tj ET
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 355.00 546.89 Tm (Planned correction) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 463.89 511.28 74.00 re f Q
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 520.89 Tm (Multilingual retrieval) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 520.89 Tm (Hindi/Hinglish and multi-condition) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 508.89 Tm (questions can miss the controlling section,) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 496.89 Tm (including opened beauty-item rules.) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 520.89 Tm (Inspect the candidate pool; improve language) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 508.89 Tm (matching and include all relevant policy) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 496.89 Tm (conditions.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 463.89 m 553.28 463.89 l S Q
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 446.89 Tm (Incomplete answers) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 446.89 Tm (Some answers omit a specific deadline,) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 434.89 Tm (fee, eligibility condition or refund) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 422.89 Tm (destination.) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 446.89 Tm (Use calculated policy facts and cover each) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 434.89 Tm (requested detail with supporting evidence.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 389.89 m 553.28 389.89 l S Q
+q 0.9451 0.9608 0.9686 rg 42.00 315.89 511.28 74.00 re f Q
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 372.89 Tm (Response decisions) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 372.89 Tm (Uncertainty, clarification and escalation) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 360.89 Tm (wording can disagree with the expected) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 348.89 Tm (decision.) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 372.89 Tm (Review intent routing and the full response) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 360.89 Tm (before changing rules; inspect evaluator false) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 348.89 Tm (negatives.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 315.89 m 553.28 315.89 l S Q
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 298.89 Tm (Conversation continuity) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 298.89 Tm (17 complete conversations fail at least one) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 286.89 Tm (turn; tool correctness alone is insufficient.) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 298.89 Tm (Recheck follow-ups, verification boundaries and) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 286.89 Tm (handovers across complete conversations.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 241.89 m 553.28 241.89 l S Q
+q 0.9451 0.9608 0.9686 rg 42.00 167.89 511.28 74.00 re f Q
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 224.89 Tm (Evaluation sensitivity) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 224.89 Tm (Decisions and facts use heuristics and text) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 212.89 Tm (matching; wording and punctuation can) Tj ET
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 171.00 200.89 Tm (affect scores.) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 224.89 Tm (Normalize equivalent text consistently and) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 212.89 Tm (review failures manually; preserve original) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 355.00 200.89 Tm (agent outputs.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 167.89 m 553.28 167.89 l S Q
+q 0.0314 0.4941 0.5137 rg 42.00 129.89 3.00 12.00 re f Q
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 53.00 132.89 Tm (RECENT IMPLEMENTATION REFINEMENTS) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 111.89 Tm (Order switching now clears private context and re-verifies the caller. Confirmed handovers export real ticket events. Deadlines) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 98.89 Tm (use current policy and the holiday calendar. Evidence includes full chunk text and model-cited IDs; first replies disclose AI) Tj ET
+BT /F1 9.00 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 85.89 Tm (identity.) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 5849 >>
+stream
+q 0.0314 0.4941 0.5137 rg 0.00 835.89 595.28 6.00 re f Q
+BT /F2 8.20 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 809.89 Tm (VOICEOPS 2026  /  CAPSTONE REPORT) Tj ET
+BT /F2 8.20 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 493.78 809.89 Tm (ZENTROMART) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 795.89 m 553.28 795.89 l S Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 42.00 756.89 Tm (Voice delivery & next steps) Tj ET
+BT /F1 9.30 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 733.89 Tm (End-to-end operation, reproducibility and the remaining evidence needed for a complete submission.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 49.89 m 553.28 49.89 l S Q
+BT /F1 7.20 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 42.00 31.89 Tm (ZentroMart  |  Implementation & evaluation) Tj ET
+BT /F2 8.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 527.72 31.89 Tm (04 / 04) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 620.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 42.00 620.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 56.00 667.89 Tm (8) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 648.89 Tm (Files succeeded) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 56.00 632.89 Tm (Saved voice batch) Tj ET
+q 0.9451 0.9608 0.9686 rg 215.76 620.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 215.76 620.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 229.76 667.89 Tm (0) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 229.76 648.89 Tm (Files failed) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 229.76 632.89 Tm (Batch processing errors) Tj ET
+q 0.9451 0.9608 0.9686 rg 389.52 620.89 163.76 77.00 re f Q
+q 0.0314 0.4941 0.5137 rg 389.52 620.89 3.00 77.00 re f Q
+BT /F2 25.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 403.52 667.89 Tm (8) Tj ET
+BT /F2 8.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 403.52 648.89 Tm (Audio replies present) Tj ET
+BT /F1 7.50 Tf 0.3804 0.4510 0.5137 rg 1 0 0 1 403.52 632.89 Tm (Checked output WAV files) Tj ET
+BT /F2 9.50 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 42.00 596.89 Tm (Batch summary: 8 succeeded, 0 failed.) Tj ET
+q 0.0314 0.4941 0.5137 rg 42.00 556.89 3.00 12.00 re f Q
+BT /F2 10.00 Tf 0.0784 0.1765 0.2510 rg 1 0 0 1 53.00 559.89 Tm (VOICE BEHAVIOR & EVIDENCE) Tj ET
+BT /F1 9.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 536.89 Tm (Gnani STT transcribes short customer turns; the same conversation agent generates a reply, and Gnani TTS saves the) Tj ET
+BT /F1 9.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 522.89 Tm (spoken output. Empty transcripts produce a spoken repeat request. Speech normalization removes visual formatting and) Tj ET
+BT /F1 9.50 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 508.89 Tm (groups eight-digit order IDs.) Tj ET
+q 0.0784 0.1765 0.2510 rg 42.00 447.89 511.28 27.00 re f Q
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 53.00 456.89 Tm (Saved per call) Tj ET
+BT /F2 8.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 192.00 456.89 Tm (Purpose) Tj ET
+q 0.9451 0.9608 0.9686 rg 42.00 419.89 511.28 28.00 re f Q
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 430.89 Tm (transcript.txt / response.txt) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 192.00 430.89 Tm (Recognized customer speech and the original agent reply.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 419.89 m 553.28 419.89 l S Q
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 402.89 Tm (response.wav) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 192.00 402.89 Tm (Gnani-generated spoken response.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 391.89 m 553.28 391.89 l S Q
+q 0.9451 0.9608 0.9686 rg 42.00 363.89 511.28 28.00 re f Q
+BT /F1 8.40 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 53.00 374.89 Tm (sources.json / trace.json) Tj ET
+BT /F2 8.40 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 192.00 374.89 Tm (Evidence text, section IDs, citations, actual tool calls and ticket details.) Tj ET
+q 0.8627 0.8980 0.9137 RG 0.7 w 42.00 363.89 m 553.28 363.89 l S Q
+q 0.9451 0.9608 0.9686 rg 42.00 272.89 511.28 72.00 re f Q
+q 0.0314 0.4941 0.5137 rg 42.00 272.89 3.00 72.00 re f Q
+BT /F2 9.00 Tf 0.0314 0.4941 0.5137 rg 1 0 0 1 56.00 324.89 Tm (Verification scope) Tj ET
+BT /F1 8.60 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 307.89 Tm (Local regression checks exercise order routing, re-verification, tickets, calendar rules, source exports and unclear-audio) Tj ET
+BT /F1 8.60 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 295.89 Tm (recovery. A successful batch does not measure transcription accuracy, answer correctness or voice clarity.) Tj ET
+q 1.0000 0.9647 0.9059 rg 42.00 188.89 511.28 71.00 re f Q
+q 0.5961 0.3765 0.0941 rg 42.00 188.89 3.00 71.00 re f Q
+BT /F2 9.00 Tf 0.5961 0.3765 0.0941 rg 1 0 0 1 56.00 239.89 Tm (Demo recording: 4:46 / maximum 2:00) Tj ET
+BT /F1 8.60 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 222.89 Tm (A recording is present. Shorten it to two minutes or less while preserving the agent's actual answers. Keep a grounded) Tj ET
+BT /F1 8.60 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 56.00 210.89 Tm (question, a follow-up, and a handover or uncertainty response.) Tj ET
+BT /F1 8.80 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 164.89 Tm (Before submission, review English, Hindi/Hinglish and unclear/noisy speech; publish the repository URL in README.md and) Tj ET
+BT /F1 8.80 Tf 0.1373 0.2275 0.2941 rg 1 0 0 1 42.00 152.89 Tm (refresh the evaluation after further changes. Keep credentials, virtual environments and the dataset copy out of the archive.) Tj ET
+q 0.0784 0.1765 0.2510 rg 42.00 63.89 511.28 58.00 re f Q
+BT /F2 7.00 Tf 0.5529 0.8392 0.8275 rg 1 0 0 1 54.00 104.89 Tm (REPRODUCIBLE RUN COMMANDS) Tj ET
+BT /F3 7.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 54.00 88.89 Tm (python run.py --input_folder input_folder --output_folder sample_outputs) Tj ET
+BT /F3 7.20 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 54.00 74.89 Tm (python src/evaluation.py   |   python src/build_report.py) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Title (ZentroMart - VoiceOps 2026 Capstone Report) /Author (ZentroMart VoiceOps Project) /Subject (Implementation and saved evaluation results) /Creator (VoiceOps report generator) >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000211 00000 n 
+0000000286 00000 n 
+0000000354 00000 n 
+0000000506 00000 n 
+0000006863 00000 n 
+0000007015 00000 n 
+0000013736 00000 n 
+0000013890 00000 n 
+0000020947 00000 n 
+0000021101 00000 n 
+0000027003 00000 n 
+trailer
+<< /Size 15 /Root 1 0 R /Info 14 0 R >>
+startxref
+27207
+%%EOF

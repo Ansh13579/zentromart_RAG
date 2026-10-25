@@ -1,0 +1,11 @@
+{
+  "evaluated_at_utc": "2026-10-24T12:36:24.706270+00:00",
+  "questions_path": "C:\\Users\\HP\\OneDrive - itbhu.ac.in\\Capstone_Project_Dataset_FTTT_2026\\Capstone_Project_Dataset_FTTT_2026\\practice\\questions.csv",
+  "total_questions": 52,
+  "passed_questions": 4,
+  "failed_questions": 48,
+  "pass_rate": 0.07692307692307693,
+  "decision_accuracy": 0.38461538461538464,
+  "required_fact_accuracy": 0.15384615384615385,
+  "forbidden_phrase_free_rate": 1.0
+}

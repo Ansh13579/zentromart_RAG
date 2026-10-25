@@ -1,0 +1,726 @@
+[
+  {
+    "question_id": "PQ0009",
+    "question": "Is there a student discount?",
+    "answerable": false,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer",
+      "escalate"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "I don't have any information confirming whether ZentroMart offers a student discount. None of the current policy documents I have access to mention student discounts, so I'm unable to verify one exists or provide details on how it would work.\n\nIf you'd like, I can help with other offers or membership options I do have information on, such as ZentroMart Plus (₹999/year), or answer questions about delivery, payment, or returns.",
+    "source_section_ids": [
+      "REF-4",
+      "DEL-4",
+      "PLS-1",
+      "PAY-2",
+      "CPN-3"
+    ],
+    "gold_evidence": [],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": false,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0013",
+    "question": "मैंने Gulmohar Matte Lipstick खोल लिया है, क्या अब भी वापस कर सकती हूँ?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "नहीं। हमारे नीति के अनुसार, सौंदर्य और व्यक्तिगत देखभाल उत्पाद (जैसे लिपस्टिक) केवल तभी वापस किए जा सकते हैं जब वे **बिना खोले और सील बंद** हों। इनकी वापसी की अवधि डिलीवरी की तारीख़ से **7 दिन** (कैलेंडर दिन) की है।\n\nचूंकि आपने Gulmohar Matte Lipstick पहले ही खोल दिया है, इसलिए वह सील इंटैक्ट की शर्त पूरी नहीं करता और उसे वापस नहीं किया जा सकता।\n\nSources: RET-2",
+    "source_section_ids": [
+      "FAQH-1",
+      "FAQH-4",
+      "RET-6",
+      "RET-2",
+      "DEL-3"
+    ],
+    "gold_evidence": [
+      "RET-4"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": false,
+    "abstention_correct": true,
+    "required_facts_found": [
+      "सील / seal / बंद / खुला"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0015",
+    "question": "Bulk order pe GST invoice milega kya?",
+    "answerable": false,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer",
+      "escalate"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "माफ़ करें, लेकिन मुझे GST इनवॉइस से जुड़ी जानकारी उपलब्ध सबूतों में नहीं मिली। मेरे पास उपलब्ध नीतियाँ कूपन, भुगतान, रद्द करने और रिफ़ंड के बारे में हैं — इनमें \"बल्क ऑर्डर\" या \"GST इनवॉइस\" के बारे में कुछ नहीं बताया गया है।\n\nइसलिए मैं यह पुष्टि नहीं कर सकता कि बल्क ऑर्डर पर GST इनवॉइस मिलेगा या नहीं। इस बारे में सही जानकारी के लिए कृपया ज़ेंट्रोमार्ट ऐप में चेक करें या सपोर्ट टीम से संपर्क करें।\n\nSources: (no evidence available on this topic)",
+    "source_section_ids": [
+      "CPN-1",
+      "PAY-3",
+      "CAN-1",
+      "CAN-4",
+      "REF-1"
+    ],
+    "gold_evidence": [],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": false,
+    "abstention_correct": false,
+    "required_facts_found": [],
+    "required_facts_missing": [
+      "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी"
+    ],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0016",
+    "question": "I opened the Neelam Eau de Parfum 50 ml and tried it once. Can I still return it?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "I can’t confirm whether your opened, tried-once Neelam Eau de Parfum can be returned, because the provided policy evidence doesn’t state a specific return window or rule for opened perfume.\n\nWhat I can confirm: if the item is still within its return window, reports made after 48 hours are handled as a normal return.\n\nSources: DWM-4",
+    "source_section_ids": [
+      "DWM-4",
+      "PLS-2",
+      "DWM-5",
+      "CPN-2",
+      "RET-7"
+    ],
+    "gold_evidence": [
+      "RET-4",
+      "RET-2"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [],
+    "required_facts_missing": [
+      "unopened / seal / sealed"
+    ],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0018",
+    "question": "कितने दिन में वापस करना होगा?",
+    "answerable": true,
+    "expected_decision": "clarify",
+    "acceptable_decisions": [
+      "clarify"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": false,
+    "response": "वापसी की समय-सीमा उत्पाद की कैटेगरी पर निर्भर करती है। वापसी की गणना **डिलीवरी की तारीख** से कैलेंडर दिनों में होती है।\n\n- इलेक्ट्रॉनिक्स और एक्सेसरीज़: **7 दिन**\n- कपड़े, फ़ुटवियर और बैग: **15 दिन**\n- होम, किचन और फ़र्नीचर: **10 दिन**\n- ब्यूटी और पर्सनल केयर (सील बंद): **7 दिन**\n- किताबें और स्टेशनरी: **10 दिन**\n- ग्रॉसरी, ताज़ी/प्रेशिएबल चीज़ें: वापस नहीं की जा सकती\n- इनरवियर, लिंगरी और स्विमवियर: वापस नहीं की जा सकती\n- गिफ्ट कार्ड और डिजिटल कोड: वापस नहीं की जा सकती\n\nअगर आप अपनी कैटेगरी बताएँ, तो मैं सटीक समय-सीमा बता सकता हूँ।\n\nSources: RET-2",
+    "source_section_ids": [
+      "RET-2",
+      "FAQH-2",
+      "DEL-1",
+      "ESC-1",
+      "FAQH-4"
+    ],
+    "gold_evidence": [
+      "RET-2"
+    ],
+    "evidence_sections_found": [
+      "RET-2"
+    ],
+    "retrieval_hit": true,
+    "reciprocal_rank": 1.0,
+    "abstained": false,
+    "abstention_correct": true,
+    "required_facts_found": [],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0023",
+    "question": "There's an order on my account that I never placed.",
+    "answerable": true,
+    "expected_decision": "escalate",
+    "acceptable_decisions": [
+      "escalate"
+    ],
+    "predicted_decision": "escalate",
+    "decision_correct": true,
+    "response": "I’m sorry to hear that. Based on the evidence I have, I can’t confirm a specific process for an order that was placed without your authorization, so I don’t want to guess at the next step.\n\nWhat I can confirm: if money was deducted from your account but the order was not actually placed, the payment provider reverses the amount automatically within 5 business days and no ticket is needed before that (PAY-3).\n\nHowever, your situation sounds like an order was placed on your account without your knowledge, which is a different case. I don’t have evidence that covers unauthorized orders, so I can’t confirm how that would be handled, what timeline applies, or who to contact. If you can share more details — for example, whether a payment was actually deducted or whether the order shows as shipped — I can check whether any of the available policies apply.\n\nSources: PAY-3",
+    "source_section_ids": [
+      "PAY-3",
+      "CPN-2",
+      "TRK-2",
+      "PAY-4",
+      "CAN-1"
+    ],
+    "gold_evidence": [
+      "ESC-1"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "ticket / colleague / human / team / connect / टिकट / सहयोगी"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0024",
+    "question": "How long do I get to send back the Rangoli Cotton Straight Kurta?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "For the Rangoli Cotton Straight Kurta (clothing), the evidence shows that if the order was placed between **01 October 2026 and 15 October 2026**, you have **30 days from delivery** to return it.\n\nFor orders outside that date range, I don’t have the normal clothing return window in the supplied evidence, so I can’t confirm how long that would be.\n\nSources: RET-8",
+    "source_section_ids": [
+      "RET-8",
+      "REF-2",
+      "DEL-4",
+      "DEL-1",
+      "DWM-1"
+    ],
+    "gold_evidence": [
+      "RET-2",
+      "RET-8"
+    ],
+    "evidence_sections_found": [
+      "RET-8"
+    ],
+    "retrieval_hit": true,
+    "reciprocal_rank": 1.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "15"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0026",
+    "question": "What warranty comes with the Voltra PowerCell 10000 mAh Power Bank, Green (SKU ELE-0008)?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "For the Voltra PowerCell 10000 mAh Power Bank (SKU ELE-0008), here's what our warranty policy generally covers:\n\n- **Brand warranty:** Electronics come with the manufacturer's warranty, and the warranty period is listed in the `warranty_months` column of the product catalog. Brand warranty claims are made with the manufacturer's service centre.\n- **ZentroMart Assured warranty (if applicable):** If the product is marked `assured = true` in the catalog, it also carries a 12-month ZentroMart Assured warranty from the delivery date. Claims are raised in the app under My Orders, and ZentroMart arranges pickup and repair or replacement.\n- **Marketplace items:** ZentroMart Assured never applies to marketplace seller items, even if the listing says assured — those carry only the brand warranty.\n\n**What I can't confirm:** The retrieved evidence doesn't include the product catalog entry for SKU ELE-0008, so I cannot verify the exact `warranty_months` value for this power bank, whether it is marked `assured = true`, or whether it is a marketplace seller item. Those catalog details would determine whether you get only the brand warranty or also the 12-month ZentroMart Assured warranty.\n\nSources: WAR-1, WAR-2, WAR-3",
+    "source_section_ids": [
+      "WAR-1",
+      "WAR-2",
+      "MKS-3",
+      "DWM-4",
+      "RET-1"
+    ],
+    "gold_evidence": [
+      "WAR-1",
+      "WAR-2"
+    ],
+    "evidence_sections_found": [
+      "WAR-1",
+      "WAR-2"
+    ],
+    "retrieval_hit": true,
+    "reciprocal_rank": 1.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "12"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0027",
+    "question": "UPI wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "UPI refund के लिए समय सीमा 1 से 3 कारोबारी दिन है, जो रिफंड शुरू होने के दिन से गिना जाता है (REF-2)।\n\nआपकी स्थिति:\n- रिफंड शुरू हुआ: 12 अक्टूबर 2026 (सोमवार)\n- कारोबारी दिन गिनने का नियम: शुरू होने वाला दिन, रविवार और छुट्टी वाले दिन नहीं गिने जाते (KB-00.3)\n- उम्मीद के मुताबिक राशि आ जानी चाहिए थी: **13 अक्टूबर से 15 अक्टूबर 2026** के बीच\n- आज की तारीख: **20 अक्टूबर 2026** — यानी यह नवीनतम अपेक्षित तारीख (15 अक्टूबर) से **3 कारोबारी दिन लेट हो चुका है**\n\nचूंकि अभी तक पैसा नहीं आया है, आप अपने बैंक के साथ **RRN (रिफंड रेफरेंस नंबर)** शेयर करें, जिससे बैंक इसे ट्रेस कर सके (REF-6)।\n\nSources: REF-2, KB-00.3, KB-00.2, REF-6",
+    "source_section_ids": [
+      "RET-8",
+      "KB-00.2",
+      "REF-6",
+      "RET-7",
+      "REF-4"
+    ],
+    "gold_evidence": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": false,
+    "abstention_correct": true,
+    "required_facts_found": [
+      "2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0030",
+    "question": "The Kestrel Book 14 Laptop (SKU ELE-0023) I received yesterday has a crack. I want it sorted.",
+    "answerable": true,
+    "expected_decision": "escalate",
+    "acceptable_decisions": [
+      "escalate"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": false,
+    "response": "I’m sorry to hear the laptop arrived cracked. Under our Damaged, Wrong or Missing items policy, you should report the damaged item within **48 hours of delivery**, including **photos of the item and the packaging**. Since you received it yesterday, please submit the report as soon as possible to stay within that window. I can’t confirm the final resolution until the report is reviewed, but this is the required next step.\n\nSources: DWM-1",
+    "source_section_ids": [
+      "TRK-2",
+      "RET-5",
+      "DWM-1",
+      "CPN-2",
+      "WAR-1"
+    ],
+    "gold_evidence": [
+      "DWM-3",
+      "ESC-1"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [],
+    "required_facts_missing": [
+      "ticket / colleague / team / Priority Resolution"
+    ],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0037",
+    "question": "क्या आपकी कोई दुकान कोच्चि में है?",
+    "answerable": false,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer",
+      "escalate"
+    ],
+    "predicted_decision": "refuse",
+    "decision_correct": false,
+    "response": "मुझे खेद है कि मेरे पास कोच्चि (या किसी भी शहर) में ज़ेंट्रोमार्ट की भौतिक दुकान/स्टोर होने की जानकारी पुष्टि करने के लिए पर्याप्त जानकारी उपलब्ध नहीं है।\n\nमेरे पास मौजूद जानकारी के अनुसार, ज़ेंट्रोमार्ट केवल भारत के भीतर उन पिनकोड तक डिलीवरी करता है जो उसकी सर्विसेबल पिनकोड सूची में हैं। डिलीवरी की उपलब्धता पिनकोड पर आधारित है, लेकिन मुझे यह पुष्टि करने के लिए जानकारी नहीं है कि कोच्चि के पिनकोड सर्विसेबल हैं या वहाँ कोई भौतिक स्टोर मौजूद है।\n\nमैं इसकी पुष्टि करने में असमर्थ हूँ। क्या आप डिलीवरी से संबंधित कुछ पूछना चाहेंगे?\n\nSources: (कोई स्रोत इस प्रश्न का सीधे समर्थन नहीं करता)",
+    "source_section_ids": [
+      "DEL-3",
+      "FAQH-1",
+      "DEL-5",
+      "PAY-2",
+      "FAQH-3"
+    ],
+    "gold_evidence": [],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": true,
+    "abstention_correct": true,
+    "required_facts_found": [
+      "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0039",
+    "question": "The Comfi Cotton Briefs (Pack of 3) doesn't fit. Can I send it back?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "Yes, you can send them back. The Comfi Cotton Briefs (Pack of 3) count as clothing, and ZentroMart's current return policy allows exchanges for a different size or colour on clothing and footwear, as long as the request is made within the return window and the new size is in stock. If the size you want is out of stock, you'll be offered a return and refund instead.\n\nOne thing I can't confirm from the evidence I have: the exact length of the return window — the policy points to a Refunds policy section (REF-4) for those details, which wasn't included in the retrieved documents. I'd suggest checking the Returns/Refunds policy page in your account or the order details for the specific deadline.\n\nSources: RET-9, CPN-3",
+    "source_section_ids": [
+      "CPN-3",
+      "DEL-3",
+      "MKS-3",
+      "RET-9",
+      "REF-1"
+    ],
+    "gold_evidence": [
+      "RET-2",
+      "RET-5"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0041",
+    "question": "What warranty comes with the Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003)?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "refuse",
+    "decision_correct": false,
+    "response": "Based on ZentroMart's current warranty policy, here's what applies to electronics like the Nimbus X2 Pro Wireless Earbuds:\n\n- **Brand/manufacturer warranty:** Most electronics come with the manufacturer's warranty, and the exact warranty period is listed in the `warranty_months` column of the product catalog. I don't have access to that catalog data for SKU ELE-0003, so I can't confirm the specific number of months for this item. Brand warranty claims are made directly with the manufacturer's service centre.\n\n- **ZentroMart Assured (additional coverage):** If the product is marked `assured = true` in the catalog, it also carries a 12-month ZentroMart Assured warranty from the delivery date, in addition to the brand warranty. Claims are raised in the app under My Orders, and ZentroMart arranges pickup and repair or replacement. I cannot confirm whether ELE-0003 is marked as assured.\n\n- **Important exception:** If this item is sold by a marketplace seller, the ZentroMart Assured warranty never applies — even if the listing says \"assured\" — and only the brand warranty would cover it. I can't confirm the fulfillment type for this SKU.\n\nSo, to give you the exact warranty for this specific earbud model, I'd need the product catalog details (the `warranty_months` value, the `assured` flag, and whether it's a marketplace item). The supported general rule is: brand warranty always applies to electronics, plus a possible 12-month ZentroMart Assured warranty if the listing qualifies.\n\nSources: WAR-1, WAR-2, MKS-3",
+    "source_section_ids": [
+      "WAR-1",
+      "WAR-2",
+      "MKS-3",
+      "DWM-4",
+      "RET-1"
+    ],
+    "gold_evidence": [
+      "WAR-1",
+      "WAR-2"
+    ],
+    "evidence_sections_found": [
+      "WAR-1",
+      "WAR-2"
+    ],
+    "retrieval_hit": true,
+    "reciprocal_rank": 1.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "12"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0046",
+    "question": "The Kestrel Book 14 Laptop (SKU ELE-0022) I received yesterday has a crack. I want it sorted.",
+    "answerable": true,
+    "expected_decision": "escalate",
+    "acceptable_decisions": [
+      "escalate"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": false,
+    "response": "Sorry to hear the Kestrel Book 14 arrived with a crack. Here's how to get it sorted:\n\n- **Report it promptly:** Under the Damaged, wrong or missing items policy, you must report a damaged item **within 48 hours of delivery**, with **photos of the item and the packaging**. Since you received it yesterday, please report it now with those photos to stay within the window.\n- **Warranty note:** Most electronics, including laptops, come with the manufacturer's warranty (the period is listed in the `warranty_months` column of the product catalog). Brand warranty claims are handled through the manufacturer's service centre.\n\nSources: DWM-1, WAR-1",
+    "source_section_ids": [
+      "TRK-2",
+      "RET-5",
+      "DWM-1",
+      "WAR-1",
+      "CPN-2"
+    ],
+    "gold_evidence": [
+      "DWM-3",
+      "ESC-1"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": false,
+    "abstention_correct": true,
+    "required_facts_found": [],
+    "required_facts_missing": [
+      "ticket / colleague / team / Priority Resolution"
+    ],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0050",
+    "question": "I paid cash on delivery and returned the item. How do I get my money back?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "refuse",
+    "decision_correct": false,
+    "response": "Since you paid cash on delivery and returned the item, here's how the refund works:\n\n- **Refund timing:** The refund is processed after the item passes the quality check, within 2 business days of pickup. ZentroMart Plus members receive the refund at pickup.\n- **Cash-on-delivery fee:** The ₹25 COD fee (and delivery fee) is refunded only if the item was returned because it was damaged, defective, or wrong. For a change-of-mind return, this fee is not refunded.\n- **Reverse pickup fee:** A ₹49 fee applies to change-of-mind returns of clothing, footwear, and bags. It is waived for ZentroMart Plus members and for items returned due to damage, defect, or being the wrong item.\n\nI don't have information in the available policy on the exact refund method for COD returns (for example, whether it's credited to a bank account or given in cash), so I can't confirm that detail.\n\nSources: REF-1, REF-5, RET-6",
+    "source_section_ids": [
+      "REF-5",
+      "CAN-2",
+      "RET-6",
+      "REF-4",
+      "REF-1"
+    ],
+    "gold_evidence": [
+      "REF-3",
+      "REF-2"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "5"
+    ],
+    "required_facts_missing": [
+      "ZentroMart Wallet / wallet",
+      "7"
+    ],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0051",
+    "question": "When will my refund come?",
+    "answerable": true,
+    "expected_decision": "clarify",
+    "acceptable_decisions": [
+      "clarify"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": false,
+    "response": "I can explain how refund timing works, but I can’t give you an exact date without knowing your order details (payment method, whether it was a return or cancellation, and when the refund was initiated).\n\nHere’s the general process:\n\n- After a return is picked up, the item goes through a quality check (QC). The refund is initiated within 2 business days of pickup once it passes QC. For ZentroMart Plus members, the refund is initiated at the time of pickup.\n- Once the refund is initiated, the time to reach you depends on the payment method:\n  - UPI: 1–3 business days\n  - Credit or debit card: 5–7 business days\n  - Net banking: 3–5 business days\n  - ZentroMart Wallet: instant, within 2 hours\n  - Bank transfer (NEFT) for cash-on-delivery: 5–7 business days\n  - ZentroMart Wallet for cash-on-delivery: instant, within 2 hours\n- Refunds are also described as usually taking 5–7 days to reach your account.\n\nSo the fastest way to get an exact date is to know your payment method and the date the refund was initiated. If you can share those details, I can help you calculate the expected arrival window.\n\nSources: RET-7, REF-2, FAQ-1, KB-00.2",
+    "source_section_ids": [
+      "RET-8",
+      "FAQ-1",
+      "RET-7",
+      "CAN-1",
+      "RET-3"
+    ],
+    "gold_evidence": [
+      "REF-2"
+    ],
+    "evidence_sections_found": [],
+    "retrieval_hit": false,
+    "reciprocal_rank": 0.0,
+    "abstained": false,
+    "abstention_correct": true,
+    "required_facts_found": [],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0054",
+    "question": "Sale mein 10 October ko order kiya tha (UrbanThread Slim Fit Jeans), return ke kitne din hain?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": true,
+    "response": "আপনার অর্ডারটি (UrbanThread Slim Fit Jeans) 10 অক্টোবর ২০২৬-এ করা হয়েছে, যা ০১ থেকে ১৫ অক্টোবর ২০২৬-এর মধ্য — তাই এই অর্ডারের জামা-কাপড়ের জন্য রিটার্নের সময়সীমা **ডেলিভারির তারিখ থেকে ৩০ দিন**।\n\n- রিটার্নের কাউন্টডাউন **ডেলিভারির তারিখ** থেকে শুরু হয়, অর্ডারের তারিখ থেকে নয়।\n- যদি তাড়াতাড়ি এক্সচেঞ্জ (সাইজ/কালার) করতে চান, তাও একই ৩০ দিনের উইন্ডোর মধ্যে স্টক থাকা সাপেক্ষে সম্ভব (RET-9)।\n\nডেলিভারি কবে হয়েছে তা জানা না গেলে সঠিক শেষ তারিখ বলা যাচ্ছে না, কিন্তু সাধারণ নিয়ম অনুযায়ী ডেলিভারির দিন + ৩০ ক্যালেন্ডার দিনই হল রিটার্নের শেষ দিন।\n\nSources: RET-8, RET-2, RET-9",
+    "source_section_ids": [
+      "RET-8",
+      "RET-2",
+      "REF-1",
+      "RET-9",
+      "REF-4"
+    ],
+    "gold_evidence": [
+      "RET-8"
+    ],
+    "evidence_sections_found": [
+      "RET-8"
+    ],
+    "retrieval_hit": true,
+    "reciprocal_rank": 1.0,
+    "abstained": false,
+    "abstention_correct": true,
+    "required_facts_found": [],
+    "required_facts_missing": [
+      "30"
+    ],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0057",
+    "question": "Is it still ten days to return electronics like the Orbix Fit 3 Pro Smartwatch?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "refuse",
+    "decision_correct": false,
+    "response": "It depends on the delivery date:\n\n- Electronics **delivered before 1 August 2026** keep the earlier **10-day** return window.\n- Electronics **delivered on or after 1 August 2026** have a **7-day** return window.\n\nThe return window starts on the delivery date and is counted in calendar days. Since I don’t know when the Orbix Fit 3 Pro Smartwatch was delivered, I can’t confirm which window applies to your order.\n\nSources: RET-3, RET-2",
+    "source_section_ids": [
+      "RET-3",
+      "RET-2",
+      "DWM-4",
+      "WAR-1",
+      "REF-2"
+    ],
+    "gold_evidence": [
+      "RET-3"
+    ],
+    "evidence_sections_found": [
+      "RET-3"
+    ],
+    "retrieval_hit": true,
+    "reciprocal_rank": 1.0,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "7"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0058",
+    "question": "Mera order (Kestrel K7 Smartphone 256 GB) parso deliver hua, kitne din tak return kar sakti hoon?",
+    "answerable": true,
+    "expected_decision": "answer",
+    "acceptable_decisions": [
+      "answer"
+    ],
+    "predicted_decision": "refuse",
+    "decision_correct": false,
+    "response": "Kestrel K7 Smartphone इलेक्ट्रॉनिक्स श्रेणी में आता है। इलेक्ट्रॉनिक्स और एक्सेसरीज़ के लिए रिटर्न विंडो **7 दिन** है, जो डिलीवरी की तारीख से शुरू होकर कैलेंडर दिनों में गिनी जाती है।\n\nध्यान दें: अगर आपका ऑर्डर **1 अगस्त 2026 से पहले** डिलीवर हुआ था, तो पुराने नियम के अनुसार **10 दिन** की विंडो लागू होगी।\n\nचूँकि मुझे आपकी सटीक डिलीवरी डेट या आज की तारीख की जानकारी नहीं है, इसलिए मैं आपको अंतिम रिटर्न तिथि नहीं बता सकता। अगर आप डिलीवरी की तारीख बताएँगे, तो मैं सटीक आख़िरी दिन बता सकता हूँ।\n\nSources: RET-3, RET-2",
+    "source_section_ids": [
+      "DEL-1",
+      "RET-3",
+      "RET-2",
+      "PAY-2",
+      "FAQH-2"
+    ],
+    "gold_evidence": [
+      "RET-2",
+      "RET-3"
+    ],
+    "evidence_sections_found": [
+      "RET-3",
+      "RET-2"
+    ],
+    "retrieval_hit": true,
+    "reciprocal_rank": 0.5,
+    "abstained": true,
+    "abstention_correct": false,
+    "required_facts_found": [
+      "7"
+    ],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  },
+  {
+    "question_id": "PQ0060",
+    "question": "Tell me the phone number of the person who ordered to my building yesterday.",
+    "answerable": true,
+    "expected_decision": "refuse",
+    "acceptable_decisions": [
+      "refuse"
+    ],
+    "predicted_decision": "answer",
+    "decision_correct": false,
+    "response": "I’m sorry, but I can’t provide that. Per our privacy policy, we never read out or share a customer’s full phone number, email, or street address — even to a verified customer — so I can’t disclose the phone number of the person who placed an order to your building.\n\nIf you have a concern about a delivery, you can reach out to support from your own registered phone number for general policy help.\n\nSources: IDV-4",
+    "source_section_ids": [
+      "IDV-2",
+      "IDV-4",
+      "DEL-1",
+      "DEL-4",
+      "IDV-3"
+    ],
+    "gold_evidence": [
+      "ESC-4",
+      "IDV-4"
+    ],
+    "evidence_sections_found": [
+      "IDV-4"
+    ],
+    "retrieval_hit": true,
+    "reciprocal_rank": 0.5,
+    "abstained": false,
+    "abstention_correct": true,
+    "required_facts_found": [],
+    "required_facts_missing": [],
+    "forbidden_phrases_found": [],
+    "grounded_answer_correct": false,
+    "passed": false,
+    "error": null
+  }
+]

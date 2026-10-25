@@ -1,0 +1,17 @@
+{
+  "step1": {
+    "pass_rate": 0.07692307692307693,
+    "decision_accuracy": 0.38461538461538464,
+    "required_fact_accuracy": 0.15384615384615385,
+    "forbidden_phrase_free_rate": 1.0
+  },
+  "step2": {
+    "pass_rate": 0.6153846153846154,
+    "decision_accuracy": 0.8076923076923077,
+    "grounded_answer_accuracy": 0.6538461538461539,
+    "retrieval_hit_rate": 0.8085106382978723,
+    "mean_reciprocal_rank": 0.6230496453900709,
+    "required_fact_accuracy": 0.8846153846153846,
+    "forbidden_phrase_free_rate": 1.0
+  }
+}

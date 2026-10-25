@@ -1,0 +1,16 @@
+{
+  "evaluated_at_utc": "2026-10-25T10:23:11.428795+00:00",
+  "questions_path": "C:\\Users\\HP\\OneDrive - itbhu.ac.in\\Capstone_Project_Dataset_FTTT_2026\\Capstone_Project_Dataset_FTTT_2026\\practice\\questions.csv",
+  "top_k": 5,
+  "total_questions": 52,
+  "passed_questions": 32,
+  "failed_questions": 20,
+  "pass_rate": 0.6153846153846154,
+  "retrieval_hit_rate": 0.8085106382978723,
+  "mean_reciprocal_rank": 0.6230496453900709,
+  "decision_accuracy": 0.8076923076923077,
+  "grounded_answer_accuracy": 0.6538461538461539,
+  "unsupported_abstention_accuracy": 0.6,
+  "required_fact_accuracy": 0.8846153846153846,
+  "forbidden_phrase_free_rate": 1.0
+}

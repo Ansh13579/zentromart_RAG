@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+*.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+report_previews/
+*.zip
+/Zentro_Mart.mp4
+/demo.mp4
+
+# Keep local customer-voice test inputs out of source control.
+input_folder/*
+!input_folder/.gitkeep
+
+# Generated local embedding/index artifacts can be rebuilt from the dataset.
+indexes/*.faiss
+indexes/retriever_metadata.json
+indexes/chunks.json

@@ -1,0 +1,105 @@
+{
+  "status": "success",
+  "input_file": "input_file.wav",
+  "transcript": "what is the return window for electronics",
+  "response": "The return window for electronics and accessories is 7 days from the delivery date. This applies to all electronics delivered on or after 1 August 2026. Electronics delivered before that date have a 10-day return window.\n\nSources: RET-3, RET-2",
+  "output_audio": "response.wav",
+  "sources": [
+    {
+      "chunk_id": "POL-RET:RET-3:1",
+      "doc_id": "POL-RET",
+      "section_id": "RET-3",
+      "title": "Change to electronics returns",
+      "doc_type": "policy",
+      "status": "current",
+      "effective_from": "2026-08-01",
+      "text": "From **1 August 2026**, the return window for electronics and accessories is 7 days. Electronics **delivered before 1 August 2026** keep the earlier 10-day window from version 3 of this policy.",
+      "evidence_text_recovered_from_index": true,
+      "evidence_role": "retrieved",
+      "cited_in_answer": true
+    },
+    {
+      "chunk_id": "FAQ-GEN:FAQ-2:1",
+      "doc_id": "FAQ-GEN",
+      "section_id": "FAQ-2",
+      "title": "Can I return something I bought?",
+      "doc_type": "faq",
+      "status": "current",
+      "effective_from": "2025-11-01",
+      "text": "Most items can be returned within the return window. Some items, like grocery, cannot be returned.",
+      "evidence_text_recovered_from_index": true,
+      "evidence_role": "retrieved",
+      "cited_in_answer": false
+    },
+    {
+      "chunk_id": "POL-MKT:MKS-2:1",
+      "doc_id": "POL-MKT",
+      "section_id": "MKS-2",
+      "title": "Returns and refunds",
+      "doc_type": "policy",
+      "status": "current",
+      "effective_from": "2026-03-01",
+      "text": "Return windows, reverse pickup and refunds are the same for every seller and are handled by ZentroMart.",
+      "evidence_text_recovered_from_index": true,
+      "evidence_role": "retrieved",
+      "cited_in_answer": false
+    },
+    {
+      "chunk_id": "POL-RET:RET-2:1",
+      "doc_id": "POL-RET",
+      "section_id": "RET-2",
+      "title": "Return windows by category",
+      "doc_type": "policy",
+      "status": "current",
+      "effective_from": "2026-08-01",
+      "text": "The return window starts on the **delivery date** and is counted in calendar days. The category of every product is listed in the `return_category` column of the product catalog. | Category | Return window | Catalog code | | --- | --- | --- | | Electronics and accessories | 7 days | `electronics` | | Clothing, footwear and bags | 15 days | `fashion` | | Home, kitchen and furniture | 10 days | `home_kitchen` | | Beauty and personal care (unopened, seal intact) | 7 days | `beauty_sealed` | | Books and stationery | 10 days | `books_media` | | Grocery, fresh and perishables | Not returnable | `grocery` | | Innerwear, lingerie and swimwear | Not returnable | `innerwear` | | Gift cards and digital codes | Not returnable | `digital` |",
+      "evidence_text_recovered_from_index": true,
+      "evidence_role": "retrieved",
+      "cited_in_answer": true
+    },
+    {
+      "chunk_id": "HLP-RVP:RVP-1:1",
+      "doc_id": "HLP-RVP",
+      "section_id": "RVP-1",
+      "title": "Booking",
+      "doc_type": "help",
+      "status": "current",
+      "effective_from": "2026-08-01",
+      "text": "Raise the return from My Orders. Choose a pickup slot. The delivery executive will check the item at the door against the condition rules in RET-4.",
+      "evidence_text_recovered_from_index": true,
+      "evidence_role": "retrieved",
+      "cited_in_answer": false
+    }
+  ],
+  "section_ids": [
+    "FAQ-2",
+    "MKS-2",
+    "RET-2",
+    "RET-3",
+    "RVP-1"
+  ],
+  "retrieval_scores": [
+    0.6588036417961121,
+    0.5475266575813293,
+    0.5387238264083862,
+    0.41432371735572815,
+    0.4034866690635681
+  ],
+  "tool_calls": [],
+  "tool_results": {},
+  "ticket_id": null,
+  "state_changes": {},
+  "needs_human": false,
+  "abstained": false,
+  "cited_section_ids": [
+    "RET-2",
+    "RET-3"
+  ],
+  "retrieved_section_ids": [
+    "RET-3",
+    "FAQ-2",
+    "MKS-2",
+    "RET-2",
+    "RVP-1"
+  ]
+}

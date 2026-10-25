@@ -1,0 +1,6 @@
+{
+  "top_k": 5,
+  "answerable_questions": 47,
+  "retrieval_hit_rate": 0.8085106382978723,
+  "mean_reciprocal_rank": 0.6230496453900709
+}

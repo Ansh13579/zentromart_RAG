@@ -1,0 +1,25 @@
+# Hugging Face hosted inference API for Qwen
+huggingface-hub
+
+# Load HF_TOKEN and other environment variables from .env
+python-dotenv
+
+# NVIDIA NIM uses the OpenAI-compatible client
+openai
+
+# Structured CSV data and evaluation
+pandas
+
+# Embedding arrays and vector search support
+numpy
+sentence-transformers
+faiss-cpu
+
+# Official Gnani STT/TTS SDK
+gnani-vachana
+
+# Audio metadata and file input/output
+soundfile
+
+# Optional interactive microphone capture and playback for the live demo
+sounddevice

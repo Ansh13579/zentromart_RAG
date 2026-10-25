@@ -1,0 +1,984 @@
+[
+  {
+    "conversation_id": "PC002",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC002",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC002",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC002",
+    "turn": 4,
+    "expected_tool_calls": [
+      "create_ticket"
+    ],
+    "actual_tool_calls": [
+      "create_ticket"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": 5,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": 5,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC005",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC005",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC005",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC005",
+    "turn": 4,
+    "expected_tool_calls": [
+      "create_ticket"
+    ],
+    "actual_tool_calls": [
+      "create_ticket"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC006",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC006",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC006",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC006",
+    "turn": 4,
+    "expected_tool_calls": [
+      "create_ticket"
+    ],
+    "actual_tool_calls": [
+      "create_ticket"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC007",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC007",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC007",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC007",
+    "turn": 4,
+    "expected_tool_calls": [
+      "create_ticket"
+    ],
+    "actual_tool_calls": [
+      "create_ticket"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC008",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC008",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC008",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC008",
+    "turn": 4,
+    "expected_tool_calls": [
+      "create_ticket"
+    ],
+    "actual_tool_calls": [
+      "create_ticket"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC009",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC009",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC009",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC009",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC010",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC010",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC010",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC010",
+    "turn": 4,
+    "expected_tool_calls": [
+      "create_ticket"
+    ],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC011",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC011",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC011",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC011",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC012",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC012",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC012",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC012",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": 5,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": 5,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC015",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC015",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC015",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC015",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC016",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC016",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC016",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC016",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC017",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC017",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC017",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC017",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC018",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC018",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC018",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC018",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC019",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC019",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC019",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC019",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC020",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC020",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC020",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC020",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC021",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC021",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC021",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC021",
+    "turn": 4,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "failed",
+    "verification_attempts": 2
+  },
+  {
+    "conversation_id": "PC022",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC022",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC022",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC022",
+    "turn": 4,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "failed",
+    "verification_attempts": 2
+  },
+  {
+    "conversation_id": "PC023",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC023",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC023",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC023",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC024",
+    "turn": 1,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "not_required",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC024",
+    "turn": 2,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "pending",
+    "verification_attempts": 0
+  },
+  {
+    "conversation_id": "PC024",
+    "turn": 3,
+    "expected_tool_calls": [
+      "lookup_order"
+    ],
+    "actual_tool_calls": [
+      "lookup_order"
+    ],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  },
+  {
+    "conversation_id": "PC024",
+    "turn": 4,
+    "expected_tool_calls": [],
+    "actual_tool_calls": [],
+    "verification_status": "verified",
+    "verification_attempts": 1
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "evaluated_at_utc": "2026-10-25T11:53:41.154019+00:00",
+  "conversations_path": "C:\\Users\\HP\\OneDrive - itbhu.ac.in\\Capstone_Project_Dataset_FTTT_2026\\Capstone_Project_Dataset_FTTT_2026\\practice\\conversations.csv",
+  "total_conversations": 23,
+  "passed_conversations": 6,
+  "failed_conversations": 17,
+  "conversation_pass_rate": 0.2608695652173913,
+  "total_turns": 96,
+  "passed_turns": 74,
+  "turn_pass_rate": 0.7708333333333334,
+  "tool_call_accuracy": 0.9895833333333334,
+  "verification_sequence_accuracy": 1.0,
+  "follow_up_behavior_accuracy": 0.75,
+  "clarification_accuracy": 0.75,
+  "escalation_accuracy": 1.0,
+  "ticket_creation_accuracy": 0.8333333333333334,
+  "data_leakage_free_rate": 1.0
+}
